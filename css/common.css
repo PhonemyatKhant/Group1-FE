@@ -1,11 +1,27 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../fonts/Roboto-Bold.ttf');
+
+}
 
 :root {
   --white: #FFFFFF;
-  --black: #343638;
-  --pink: #FA6980;
-  --grey: #F3F3F3;
-  --txt-grey: #CBD0D3;
-  --bg-grey: #A6ADB4;
+  --txt-black: #2E2E22;
+  --orange: #FF8800;
+  --bg-dark-green: #354E57;
 }
 
 * {
@@ -19,7 +35,7 @@ body {
   padding-top: 50px;
   background-color: var(--bg-white);
   color: var(--black);
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   min-height: 100vh;
@@ -31,9 +47,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  
-}
+a:hover {}
 
 img {
   vertical-align: bottom;
@@ -68,16 +82,16 @@ input {
 
 .default-btn {
   border: solid 1px transparent;
-  background-color: var(--pink);
+  background-color: var(--bg-dark-green);
   color: var(--white);
   font-weight: 700;
   text-align: center;
 }
 
 .default-btn:hover {
-  border: solid 1px var(--pink);
+  border: solid 1px var(--bg-dark-green);
   background-color: var(--white);
-  color: var(--pink);
+  color: var(--bg-dark-green);
 }
 
 .cmn-ttl {
@@ -88,5 +102,6 @@ input {
 /*Media Query
 Ipad*/
 @media screen and (min-width:768px) and (max-width:1180px) {}
+
 /*SP*/
 @media screen and (max-width:767.9px) {}
