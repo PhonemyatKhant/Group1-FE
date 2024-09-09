@@ -1,0 +1,92 @@
+
+:root {
+  --white: #FFFFFF;
+  --black: #343638;
+  --pink: #FA6980;
+  --grey: #F3F3F3;
+  --txt-grey: #CBD0D3;
+  --bg-grey: #A6ADB4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  padding-top: 50px;
+  background-color: var(--bg-white);
+  color: var(--black);
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.cmn-container {
+  width: 98%;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.default-btn {
+  border: solid 1px transparent;
+  background-color: var(--pink);
+  color: var(--white);
+  font-weight: 700;
+  text-align: center;
+}
+
+.default-btn:hover {
+  border: solid 1px var(--pink);
+  background-color: var(--white);
+  color: var(--pink);
+}
+
+.cmn-ttl {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*Media Query
+Ipad*/
+@media screen and (min-width:768px) and (max-width:1180px) {}
+/*SP*/
+@media screen and (max-width:767.9px) {}
