@@ -47,7 +47,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {}
+a:hover {
+  opacity: 0.8;
+}
 
 img {
   vertical-align: bottom;
@@ -86,6 +88,7 @@ input {
   color: var(--bg-dark-green);
   font-weight: 700;
   text-align: center;
+  transition: all .1s ease-in;
 }
 
 .default-btn:hover {
