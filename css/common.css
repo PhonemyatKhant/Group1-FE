@@ -152,14 +152,15 @@ input {
   content: '';
 }
 
+/*---------------------footer------------------------*/
 footer {
   background-color: #354E57;
 }
 
 .join {
-  background-color: #fff;
-  padding: 35px 180px;
   line-height: 1.2;
+  padding: 35px 180px;
+  background-color: #fff;
 }
 
 .join-wrapper {
@@ -168,10 +169,10 @@ footer {
 
 .join-wrapper h3 {
   padding-right: 70px;
-  border-right: 2px solid;
+  color: #354E57;
   font-size: 32px;
   font-weight: 700;
-  color: #354E57;
+  border-right: 2px solid;
 }
 
 .join-wrapper p {
@@ -188,10 +189,10 @@ footer {
 }
 
 .joinsub button {
+  display: inline-block;
+  padding: 14px 31px;
   background-color: #FF8800;
   color: #fff;
-  padding: 14px 31px;
-  display: inline-block;
 }
 
 .footer-wrapper {
@@ -202,20 +203,20 @@ footer {
 
 .footer-list-wrapper {
   display: flex;
-  gap:100px;
+  gap: 100px;
 }
 
 .footer-logo-wrapper p {
-  font-size: 16px;
-  color: #FFF;
   margin: 30px 0px 50px 0px;
+  color: #FFF;
+  font-size: 16px;
 }
 
 .footer-logo-wrapper input {
-  font-size: 14px;
-  border: 1px solid #fff;
   padding: 12px 72px 12px 8px;
-  background-color: #354E57 ;
+  border: 1px solid #fff;
+  background-color: #354E57;
+  font-size: 14px;
 }
 
 ::placeholder {
@@ -223,17 +224,17 @@ footer {
 }
 
 .footer-logo-wrapper button {
+  padding: 12px 30px;
+  border: 1px solid #fff;
+  background-color: #354E57;
   color: #fff;
   font-size: 14px;
-  border: 1px solid #fff;
-  padding: 12px 30px;
-  background-color: #354E57;
 }
 
 .footer-list-wrapper ul {
-  color: #fff;
   line-height: 1.8;
   margin-top: 88px;
+  color: #fff;
 }
 
 .footer-list-wrapper ul h5 {
@@ -242,9 +243,9 @@ footer {
 }
 
 .copy p {
+  margin: 50px 0px 30px 0px;
   color: #fff;
   font-size: 16px;
-  margin: 50px 0px 30px 0px;
 }
 
 .copy ul {
@@ -260,11 +261,11 @@ footer {
 }
 
 .icon {
-    color: #fff;
-    display: flex;
-    gap: 23px;
-    font-size: 27px;
-    margin: 50px 82px 0px 0px;
+  display: flex;
+  margin: 50px 82px 0px 0px;
+  color: #fff;
+  font-size: 27px;
+  gap: 23px;
 }
 
 .copy-wrapper {
