@@ -151,7 +151,53 @@ input {
   background-color: var(--orange);
   content: '';
 }
-
+/*---------------------Left and Right------------------------*/
+.left-right{
+  display: flex;
+}
+.left-right .txt-side{
+  width: 50%;
+  background-color: #547665;
+  padding: 225px 0 206px;
+}
+.left-right .txt-side .txt-side-blk{
+  margin-left: 81px;
+}
+.left-right .txt-left .txt-side-blk{
+  margin-left: 169px;
+}
+.txt-side-blk .txt-side-title{
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 22px;
+  color: var(--white);
+}
+.txt-side-blk .txt-side-para{
+  font-size: 16px;
+  margin-bottom: 53px;
+  line-height: 1.6;
+  color: var(--white);
+}
+.txt-side-blk .default-btn{
+  padding: 9px 38px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--bg-light-green);
+}
+.txt-side-blk .default-btn:hover{
+  background-color: var(--white);
+  color: var(--txt-black);
+}
+.left-right .img-side{
+  width: 50%;
+}
+.left-right .img-side img{
+  width: 100%;
+  height: 100%;
+}
 /*---------------------footer------------------------*/
 footer {
   background-color: #354E57;
