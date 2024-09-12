@@ -230,6 +230,7 @@ input {
   border: 1px solid var(--bg-light-green);
   background-color: transparent;
   color: var(--white);
+}
 /* -------------------clean product----------------*/
 .clean-wrapper {
   background-color: #35736A;
