@@ -161,3 +161,14 @@
 .mv-lt .slick-dots .slick-active button {
   background-color: var(--bg-dark-green);
 }
+/*TABLET */
+@media screen and (min-width:768px) and (max-width:1180px){
+    .mv-lt .slick-list{
+        padding-bottom: 34.5px;
+    }
+}
+
+/*SP*/
+@media screen and (max-width:767.9px){
+    
+}
