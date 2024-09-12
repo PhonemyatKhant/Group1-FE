@@ -1038,4 +1038,111 @@ Ipad*/
   .p-btm .ingre-list li h3{
     margin-bottom: 13px;
   }
+  /*--------------Contact Us section start---------------*/
+.sec-contact {
+  background-color: #F7F7F7;
+}
+
+.sec-contact .sec-contact-blk {
+  border-bottom: 1px solid black;
+  margin-top: 181px;
+}
+
+.sec-contact .first-half {
+  padding-bottom: 40px;
+}
+
+.sec-contact .first-half .cmn-ttl {
+  color: #2E2E22;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sec-contact .l-inner .first-half p,
+.sec-contact .l-inner .second-half p,
+h4 {
+  line-height: 24px;
+  color: #2E2E22;
+  font-size: 16px;
+}
+
+.sec-contact .l-inner .first-half p,
+.sec-contact .l-inner .second-half p {
+  font-weight: 400;
+}
+
+.sec-contact .l-inner .first-half .span1,
+.sec-contact .l-inner .first-half .span2,
+h4 {
+  font-weight: 700;
+}
+
+.sec-contact .l-inner .first-half p {
+  vertical-align: middle;
+}
+
+.sec-contact .l-inner .first-half .span1::before {
+  display: inline-block;
+  margin-right: 8px;
+  color: #354E57;
+  width: 1px;
+  height: 1px;
+  content: '●';
+}
+
+.sec-contact .l-inner .first-half .span2 {
+  color: #FF8800;
+}
+
+.sec-contact .l-inner .second-half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.sec-contact .l-inner .second-half .email-blk,
+.sec-contact .l-inner .second-half .contact-blk {
+  width: 44%;
+  padding: 26px 9px 11px 46px;
+  background-color: #FFFFFF;
+}
+
+.sec-contact .l-inner .second-half .email-blk {
+  margin-left: 50px;
+}
+
+.sec-contact .l-inner .second-half .contact-blk {
+  margin-right: 50px;
+}
+
+.sec-contact .l-inner .second-half .email-blk ul li {
+  padding-bottom: 24px;
+}
+
+.sec-contact .l-inner .second-half .email-blk .mail {
+  color: #354E57;
+  text-decoration: underline;
+}
+
+.sec-contact .l-inner .second-half .contact-blk .txt-blk {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.sec-contact .l-inner .second-half .contact-blk .phone {
+  color: #2E2E22;
+  cursor: none;
+  pointer-events: none;
+}
+
+.sec-contact .l-inner .first-half .txt1 {
+  margin-top: 32px;
+  margin-bottom: 23px;
+}
+
+.sec-contact .l-inner .first-half .txt2 {
+  margin-top: 25px;
+}
+/*----------------Contact Us section end----------------------*/
 }
