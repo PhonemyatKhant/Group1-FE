@@ -325,7 +325,16 @@ footer {
 
 /*Media Query
 Ipad*/
-@media screen and (min-width:768px) and (max-width:1180px) {}
+@media screen and (min-width:768px) and (max-width:1180px) {
+  .cmn-container{
+    width: 89.5%;
+
+  }
+}
 
 /*SP*/
-@media screen and (max-width:767.9px) {}
+@media screen and (max-width:767.9px) {
+  .cmn-container{
+    width: 75.2%;
+  }
+}

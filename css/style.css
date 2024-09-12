@@ -19,7 +19,7 @@ SP => Screen Size - 640px*/
 }
 
 .home-mv {
-  margin-bottom: 141px;
+  /*margin-bottom: 141px;*/
   padding: 130px 0 180px 0;
 }
 
@@ -58,7 +58,7 @@ SP => Screen Size - 640px*/
 /*---------------------most-popular------------------------*/
 
 .mp {
-  padding: 62px 0 17px 0;
+  padding: 59px 0 19px 0;
 }
 
 .mp-ttl-blk {
@@ -98,7 +98,7 @@ SP => Screen Size - 640px*/
   position: relative;
   width: 250px;
   margin-right: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 58px;
   cursor: pointer;
 }
 
@@ -119,12 +119,14 @@ SP => Screen Size - 640px*/
 
 .product-img {
   width: 100%;
+ 
   border: 1px solid var(--bg-dark-green);
   background-color: var(--white);
 }
 
 .product-img img {
   width: 100%;
+  height: 346px;
 }
 
 .product-card h3 {
@@ -157,7 +159,7 @@ SP => Screen Size - 640px*/
 
 .product-card button {
   width: 100%;
-  padding: 7px 0 11px 0;
+  padding: 6px 0 11px 0;
   text-align: center;
 }
 
@@ -174,7 +176,8 @@ SP => Screen Size - 640px*/
 .product-card button span::before {
   display: inline-block;
   position: absolute;
-  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
   width: 10.5px;
   height: 10px;
@@ -213,9 +216,9 @@ SP => Screen Size - 640px*/
 }
 
 /*---------------------Left and Right------------------------*/
-.left-right .home-txt-side{
+.left-right .home-txt-side {
   width: 50%;
-  background-color:#D1B0A8;
+  background-color: #D1B0A8;
 }
 
 /*---------------------best-recommended------------------------*/
@@ -224,7 +227,7 @@ SP => Screen Size - 640px*/
 }
 
 .br {
-  padding: 82px 0 20px 0;
+  padding: 84px 0 20px 0;
 }
 
 .br-ttl-blk {
@@ -589,7 +592,7 @@ SP => Screen Size - 640px*/
 }
 
 .p-btm {
-  padding: 51px 0 48px 0;
+  padding: 49px 0 48px 0;
   text-align: center;
 }
 
@@ -612,10 +615,12 @@ SP => Screen Size - 640px*/
   margin-bottom: 0;
   margin-left: 26px;
 }
+
 /*---------------------Left And Right------------------------*/
-.product-right-txt .product-txt-side{
-  background-color:#AA96B5;
+.product-right-txt .product-txt-side {
+  background-color: #AA96B5;
 }
+
 /*---------------------sooth stories------------------------*/
 .stories {
   padding: 85px 0 47px 0;
@@ -670,193 +675,239 @@ SP => Screen Size - 640px*/
 
 /*---------------------About Us Page------------------------*/
 /*covid section*/
-.covid-update-sec{
+.covid-update-sec {
   padding: 50px 0 80px;
 }
-.covid-update-sec .cmn-container{
+
+.covid-update-sec .cmn-container {
   display: flex;
 }
-.covid-update-sec .covid-sec-lft{
+
+.covid-update-sec .covid-sec-lft {
   margin-top: 125px;
   margin-left: 80px;
 }
-.covid-sec-lft span{
+
+.covid-sec-lft span {
   display: inline-block;
+  margin-bottom: 15px;
   padding: 7px 15px;
-  font-size: 12px;
   background-color: #DE5858;
   color: var(--white);
-  margin-bottom: 15px;
-}
-.covid-sec-lft h3{
-  font-size: 48px;
-  font-weight: 700;
-  color: var(--bg-dark-green);
-  margin-bottom: 23px;
-}
-.covid-sec-lft p{
-  color: var(--bg-dark-green);
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 12px;
 }
 
-.covid-update-sec .covid-sec-rgt img{
+.covid-sec-lft h3 {
+  margin-bottom: 23px;
+  color: var(--bg-dark-green);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.covid-sec-lft p {
+  line-height: 1.5;
+  color: var(--bg-dark-green);
+  font-size: 16px;
+}
+
+.covid-update-sec .covid-sec-rgt img {
   width: 647px;
   height: 485.5px;
   margin-left: 62px;
 }
+
 /*our mission*/
-.mission-sec{
+.mission-sec {
+  padding: 155px 0 196px;
   background: url("../img/about-us/our_mission.png") no-repeat center/cover;
   max-width: 100%;
-  padding: 155px 0 196px;
 }
-.mission-sec .mission-txt{
+
+.mission-sec .mission-txt {
   margin-left: 60px;
 }
-.mission-sec h3{
+
+.mission-sec h3 {
+  margin-bottom: 20px;
+  color: var(--txt-black);
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 20px;
-  color:var(--txt-black);
 }
+
 .mission-sec p {
-  font-size: 16px;
   line-height: 1.6;
   color: var(--txt-black);
+  font-size: 16px;
 }
+
 /*middle-txt*/
-.middle-txt{
-  padding:46px 0 39px;
-  background-color: var(--white);
+.middle-txt {
+  padding: 46px 0 39px;
   border: 1px solid var(--bg-dark-green);
+  background-color: var(--white);
 }
-.middle-txt .cmn-container{
+
+.middle-txt .cmn-container {
   text-align: center;
 }
-.middle-txt .mid-title{
-  color:var(--bg-dark-green);
+
+.middle-txt .mid-title {
+  margin-bottom: 10px;
+  color: var(--bg-dark-green);
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 10px;
 }
-.middle-txt .mid-para{
-  font-size: 16px;
+
+.middle-txt .mid-para {
   line-height: 1.1;
+  font-size: 16px;
 }
+
 /*Hand Section*/
-.about-right-txt .hand-txt-side{
+.about-right-txt .hand-txt-side {
   background-color: #EEF3F4;
   color: var(--txt-black);
 }
+
 .about-right-txt .hand-txt-side h3,
 .about-right-txt .hand-txt-side p,
-.about-right-txt .hand-txt-side button{
-  color:var(--txt-black)
+.about-right-txt .hand-txt-side button {
+  color: var(--txt-black);
 }
-.left-right .hand-txt-side button{
+
+.left-right .hand-txt-side button {
   border: 1px solid var(--txt-black);
 }
-.left-right .hand-txt-side button:hover{
+
+.left-right .hand-txt-side button:hover {
   border-color: transparent;
 }
+
 /*Pink Hand Section*/
-.about-left-txt .left-side-txt{
+.about-left-txt .left-side-txt {
   background-color: #FBDEE1;
 }
+
 .about-left-txt .txt-side-title,
 .about-left-txt .txt-side-para,
-.about-left-txt .default-btn{
-  color:var(--txt-black);
+.about-left-txt .default-btn {
+  color: var(--txt-black);
 }
-.about-left-txt .default-btn{
-  border:1px solid var(--txt-black);
+
+.about-left-txt .default-btn {
+  border: 1px solid var(--txt-black);
 }
-.about-left-txt .default-btn:hover{
+
+.about-left-txt .default-btn:hover {
   border-color: transparent;
 }
+
 /*Instagram Section*/
-.ig-sec{
+.ig-sec {
   padding: 80px 0;
 }
-.ig-sec .cmn-container{
+
+.ig-sec .cmn-container {
   text-align: center;
 }
-.ig-sec .ig-acc-logo{
+
+.ig-sec .ig-acc-logo {
   margin-bottom: 50px;
 }
-.ig-acc-logo img{
+
+.ig-acc-logo img {
   margin-bottom: 9px;
 }
-.ig-sec .ig-photo-gallery{
+
+.ig-sec .ig-photo-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.ig-photo-gallery li{
+
+.ig-photo-gallery li {
   margin-right: 24px;
   margin-bottom: 20px;
 }
-.ig-photo-gallery li:nth-child(4n){
+
+.ig-photo-gallery li:nth-child(4n) {
   margin-right: 0;
 }
 
 /*---------------------Feature Section-----------------------*/
-.feature-sec{
+.feature-sec {
   padding-bottom: 80px;
 }
-.feature-sec .first-feature{
+
+.feature-sec .first-feature {
   margin-bottom: 60px;
 }
-.feature-sec .cmn-container{
+
+.feature-sec .cmn-container {
   display: flex;
   align-items: center;
 }
 
-.feature-sec .feature-img-side{
+.feature-sec .feature-img-side {
   width: 50%;
   margin-right: 98px;
 }
-.feature-sec .feature-img-side img{
+
+.feature-sec .feature-img-side img {
   width: 560px;
   height: 377px;
   margin-right: 9px;
 }
-.feature-sec .feature-txt-side{
+
+.feature-sec .feature-txt-side {
   width: 50%;
 }
-.feature-sec .feature-txt-side .feature-txt-blk{
+
+.feature-sec .feature-txt-side .feature-txt-blk {
   margin-top: -10px;
 }
-.feature-sec .feature-txt-side strong{
+
+.feature-sec .feature-txt-side strong {
   display: inline-block;
-  text-transform: uppercase;
+  margin-bottom: 22px;
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 22px;
+  text-transform: uppercase;
 }
-.feature-sec .feature-txt-side h3{
+
+.feature-sec .feature-txt-side h3 {
+  line-height: 1.19;
+  margin-bottom: 28px;
+  color: var(--bg-dark-green);
   font-size: 28px;
   font-weight: 700;
-  line-height: 1.19;
-  color: var(--bg-dark-green);
-  margin-bottom: 28px;
 }
-.feature-sec .feature-txt-side p{
-  font-size: 16px;
+
+.feature-sec .feature-txt-side p {
   line-height: 1.5;
+  font-size: 16px;
 }
-.feature-sec .feature-txt-lft{
+
+.feature-sec .feature-txt-lft {
   margin-left: 80px;
 }
-.feature-sec .feature-right-img{
+
+.feature-sec .feature-right-img {
   margin-right: 0;
   margin-left: 57px;
 }
 
 /*Media Query
 Ipad*/
-@media screen and (min-width:768px) and (max-width:1180px) {}
+@media screen and (min-width:768px) and (max-width:1180px) {
+  .mv-txt-blk{
+    margin-left: 0;
+  }
+}
 
 /*SP*/
-@media screen and (max-width:767.9px) {}
+@media screen and (max-width:767.9px) {
+  .mv-txt-blk{
+    margin-left: 0;
+  }
+}
