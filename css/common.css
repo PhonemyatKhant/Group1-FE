@@ -159,7 +159,7 @@ input {
 }
 
 .clean-artl {
-  padding: 210px 101px 206px 170px;
+  padding: 223px 101px 198px 170px;
   line-height: 1.5;
 }
 
@@ -171,7 +171,7 @@ input {
 
 .clean-artl p {
   color: #fff;
-  margin: 30px 0px 60px 0px ;
+  margin: 19px 0px 60px 0px ;
 }
 
 .clean-artl a {
@@ -198,7 +198,7 @@ footer {
 }
 
 .join-wrapper h3 {
-  padding-right: 70px;
+  padding-right: 17px;
   border-right: 2px solid;
   font-size: 32px;
   font-weight: 700;
@@ -206,16 +206,23 @@ footer {
 }
 
 .join-wrapper p {
-  width: 283px;
+  width: 50%;
   margin: 15px 0px 0px 69px;
 }
 
 .joinsub {
   margin: 15px 0px 0px 57px;
+  display: flex;
+}
+
+.join-input {
+  display: flex;
 }
 
 .joinsub input {
   padding: 12px 41px;
+  border: 1px solid #FF8800;
+  height: 67%;
 }
 
 .joinsub button {
@@ -223,6 +230,7 @@ footer {
   color: #fff;
   padding: 14px 31px;
   display: inline-block;
+  height: 67%;
 }
 
 .footer-wrapper {
@@ -233,7 +241,7 @@ footer {
 
 .footer-list-wrapper {
   display: flex;
-  gap:100px;
+  gap:83px;
 }
 
 .footer-logo-wrapper p {
@@ -270,6 +278,10 @@ footer {
 .footer-list-wrapper ul h5 {
   margin-bottom: 9px;
   font-weight: 700;
+}
+
+.more {
+  padding-right: 30px;
 }
 
 .copy p {
@@ -309,7 +321,302 @@ footer {
 
 /*Media Query
 Ipad*/
-@media screen and (min-width:768px) and (max-width:1180px) {}
+@media screen and (min-width:768px) and (max-width:1180px) {
+
+  body {
+    position: relative;
+    background-color: var(--white);
+    color: var(--txt-black);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.083vw;
+    font-weight: 400;
+    min-height: 100vh;
+  }
+  
+  a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  img {
+    vertical-align: bottom;
+    max-width: 100%;
+  }
+  
+  button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  input {
+    font-family: inherit;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    max-width: 187.5vw;
+  }
+  
+  .cmn-container {
+    width: 89.5%;
+    margin: 0 auto;
+    max-width: 153.646vw;
+  }
+  
+  .default-btn {
+    border: solid 0.131vw var(--bg-dark-green);
+    background-color: var(--white);
+    color: var(--bg-dark-green);
+    font-weight: 700;
+    text-align: center;
+    transition: all .1s ease-in;
+  }
+  
+  .default-btn:hover {
+    border: solid 0.131vw transparent;
+    background-color: var(--bg-dark-green);
+    color: var(--white);
+  }
+  
+  .cmn-ttl {
+    font-size: 3.125vw;
+    font-weight: 700;
+  }
+  
+  /*---------------------header------------------------*/
+  .gnav {
+    padding: 3.256vw 0 2.604vw 0;
+    text-align: center;
+  }
+  
+  .gnav .logo-img {
+    width: 14.454vw;
+    margin: 0 auto;
+    padding-bottom: 3.906vw;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .nav-links li {
+    position: relative;
+    margin-right: 6.641vw;
+    padding-bottom: 1.172vw;
+  }
+  
+  .nav-links li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .nav-links li:nth-of-type(3) {
+    margin-right: 7.031vw;
+    margin-left: 0.78vw;
+  }
+  
+  .nav-links li a {
+    font-weight: 500;
+    letter-spacing: 0.032vw;
+  }
+  
+  .nav-links li.active::after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.521vw;
+    background-color: var(--orange);
+    content: '';
+  }
+  
+  /* -------------------clean product----------------*/
+  .clean-wrapper {
+    background-color: #35736A;
+    display: block;
+  }
+  
+  .clean-artl {
+    padding: 13.036vw 23.151vw 12.782vw 5.136vw;
+    line-height: 1.5;
+  }
+
+  .clean-wrapper img {
+    max-height: 64.714vw;
+    width: 100%;
+
+  }
+  
+  .clean-artl h2 {
+    font-size: 5.209vw;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .clean-artl p {
+    color: #fff;
+    margin: 2.474vw 0vw 7.813vw 0vw ;
+  }
+  
+  .clean-artl a {
+    color:#fff;
+    border: 0.131vw solid #fff;
+    padding: 0.521vw 5.209vw;
+    font-size: 1.822vw;
+    font-weight: 700;
+  }
+  
+  /* ----------footer----------------- */
+  footer {
+    background-color: #354E57;
+  }
+  
+  .join {
+    background-color: #fff;
+    padding: 6.557vw 0vw 5vw 0vw;
+    line-height: 1.2;
+  }
+  
+  .join-wrapper {
+    display: block;
+  }
+  
+  .join-wrapper h3 {
+    padding-right: 2.214vw;
+    border-right: none;
+    font-size: 4.167vw;
+    font-weight: 700;
+    color: #354E57;
+  }
+  
+  .join-wrapper p {
+    width: 50%;
+    margin: 5.953vw 0vw 0vw 0vw;
+  }
+  
+  .joinsub {
+    margin: 6.953vw 0vw 0vw 7.423vw;
+    display: flex;
+  }
+  
+  .join-input {
+    display: flex;
+  }
+  
+  .joinsub input {
+    padding: 1.563vw 5.339vw;
+    border: 0.131vw solid #FF8800;
+    height: 67%;
+  }
+  
+  .joinsub button {
+    background-color: #FF8800;
+    color: #fff;
+    padding: 0vw 4.036vw;
+    display: inline-block;
+    height: 67%;
+  }
+  
+  .footer-wrapper {
+    display: block;
+    padding: 7.719vw 0vw 5.534vw 0vw;
+  }
+  
+  .footer-list-wrapper {
+    display: flex;
+    gap:14.807vw;
+    margin-left: 4.557vw;
+  }
+  
+  .footer-logo-wrapper p {
+    font-size: 2.083vw;
+    color: #FFF;
+    margin: 3.906vw 0vw 6.51vw 0vw;
+  }
+  
+  .footer-logo-wrapper input {
+    font-size: 1.822vw;
+    border: 0.131vw solid #fff;
+    padding: 1.563vw 9.376vw 1.563vw 1.042vw;
+    background-color: #354E57 ;
+  }
+  
+  ::placeholder {
+    color: #fff;
+  }
+  
+  .footer-logo-wrapper button {
+    color: #fff;
+    font-size: 1.822vw;
+    border: 0.131vw solid #fff;
+    padding: 1.563vw 3.906vw;
+    background-color: #354E57;
+  }
+  
+  .footer-list-wrapper ul {
+    color: #fff;
+    line-height: 1.8;
+    margin-top: 5.459vw;
+  }
+  
+  .footer-list-wrapper ul h5 {
+    margin-bottom: 1.172vw;
+    font-weight: 700;
+  }
+  
+  .more {
+    padding-right: 3.906vw;
+  }
+  
+  .copy p {
+    color: #fff;
+    font-size: 2.083vw;
+    margin: 3.51vw 0vw 3.906vw 0vw;
+  }
+  
+  .copy ul {
+    display: flex;
+    color: #fff;
+    font-size: 2.083vw;
+    gap: 5.417vw;
+  }
+  
+  .copy-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon {
+      color: #fff;
+      display: flex;
+      gap: 2.995vw;
+      font-size: 3.515vw;
+      margin: 3.51vw 0vw 0vw 0vw;
+  }
+  
+  .copy-wrapper {
+    padding-bottom: 10.417vw;
+  }
+  
+  .copy ul li a {
+    text-decoration: underline;
+  }
+  
+}
 
 /*SP*/
 @media screen and (max-width:767.9px) {}
