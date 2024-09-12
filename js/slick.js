@@ -14,3 +14,4 @@ $('.single-item').slick({
   variableWidth: true,
   dots: true
 });
+
