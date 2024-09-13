@@ -679,9 +679,10 @@ SP => Screen Size - 640px*/
 }
 
 /*---------------------About Us Page------------------------*/
-.about-bdy{
+.about-bdy {
   overflow-x: hidden;
 }
+
 /*covid section*/
 .covid-update-sec {
   padding: 50px 0 80px;
@@ -1101,82 +1102,100 @@ SP => Screen Size - 640px*/
 
 
 /*---------------------Contact Us Page------------------------*/
-.contact-us-section{
-  padding:53px 0 50px;
+.contact-us-section {
+  padding: 53px 0 50px;
   background-color: #F7F7F7;
 }
-.contact-us-section .contact-us-intro{
+
+.contact-us-section .contact-us-intro {
   margin-bottom: 33px;
 }
-.contact-us-section .contact-us-intro .contact-us-title{
+
+.contact-us-section .contact-us-intro .contact-us-title {
+  margin-bottom: 30px;
+  color: var(--txt-black);
   font-size: 48px;
   font-weight: 700;
-  color:var(--txt-black);
-  margin-bottom: 30px;
 }
-.contact-us-section .contact-us-intro p{
-  color: var(--txt-black);
-  font-size: 16px;
+
+.contact-us-section .contact-us-intro p {
   line-height: 1.6;
   margin-bottom: 25px;
+  color: var(--txt-black);
+  font-size: 16px;
 }
-.contact-us-section .contact-us-intro .contact-us-list{
+
+.contact-us-section .contact-us-intro .contact-us-list {
   margin-bottom: 25px;
 }
-.contact-us-section .contact-us-intro .contact-us-list li{
-  list-style-type: disc;
-  margin-left: 13px;
+
+.contact-us-section .contact-us-intro .contact-us-list li {
   margin-bottom: 10px;
+  margin-left: 13px;
   color: var(--bg-dark-green);
   font-weight: 700;
+  list-style-type: disc;
 }
-.contact-us-intro .contact-us-list li::marker{
+
+.contact-us-intro .contact-us-list li::marker {
   font-size: 13px;
   vertical-align: middle;
 }
-.contact-us-section .contact-us-intro .contact-us-list span{
+
+.contact-us-section .contact-us-intro .contact-us-list span {
   color: var(--orange);
 }
-.contact-us-boxes{
+
+.contact-us-boxes {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
-.contact-us-boxes .contact-box{
+
+.contact-us-boxes .contact-box {
   width: 516px;
 }
-.contact-us-boxes .contact-first-box{
+
+.contact-us-boxes .contact-first-box {
+  margin-right: 40px;
   padding: 35px 280px 13px 36px;
   background-color: var(--white);
-  margin-right: 40px;
 }
-.contact-us-boxes .contact-first-box .contact-label{
+
+.contact-us-boxes .contact-first-box .contact-label {
   margin-bottom: 31px;
 }
-.contact-us-boxes .contact-first-box .contact-label a{
+
+.contact-us-boxes .contact-first-box .contact-label a {
   text-decoration: underline;
 }
-.contact-first-box .contact-label .contact-info-ttl{
-  font-size: 16px;
+
+.contact-first-box .contact-label .contact-info-ttl {
   margin-bottom: 8px;
+  font-size: 16px;
   font-weight: 700;
 }
-.contact-us-boxes .contact-second-box{
+
+.contact-us-boxes .contact-second-box {
   padding: 37px 0 38px 47px;
   background-color: var(--white);
 }
-.contact-second-box .contact-second-label{
-  font-weight: 700;
+
+.contact-second-box .contact-second-label {
   margin-bottom: 29px;
+  font-weight: 700;
 }
-.contact-second-box .contact-second-address{
-  font-size: 16px;
+
+.contact-second-box .contact-second-address {
   line-height: 1.5;
   margin-bottom: 28px;
+  font-size: 16px;
 }
-.contact-second-box .contact-ph-no .phone{
+
+.contact-second-box .contact-ph-no .phone {
   cursor: none;
   pointer-events: none;
 }
+
 /*Media Query
 Ipad*/
 @media screen and (min-width:768px) and (max-width:1180px) {
@@ -1226,6 +1245,9 @@ Ipad*/
   .cp-banner .txt-left .txt-side-blk {
     margin-left: 10.417vw;
   }
+  .cp-banner .txt-left .txt-side-blk {
+    max-width: 429px;
+  }
 
   .cp-banner .txt-left .txt-side-blk button {
     padding: 1.042vw 5.208vw;
@@ -1235,10 +1257,13 @@ Ipad*/
     width: 100%;
     height: 64.453vw;
   }
+  .cp-banner .img-side img{
+   height: 100%;
+  }
 
   /*---------------------top-recommended------------------------*/
   .tr {
-    padding: 10.677vw 0 7.682vw 0;
+    padding: 11.3vw 0 7.682vw 0;
   }
 
   .tr-ttl-blk {
@@ -1269,7 +1294,12 @@ Ipad*/
   .about-right-txt .txt-side .txt-side-blk {
     margin-left: 10.417vw;
   }
-
+  .about-right-txt .txt-side .txt-side-blk h3{
+    max-width: 397px;
+  }
+  .about-right-txt .txt-side .txt-side-blk p{
+    max-width: 582px;
+  }
   .about-right-txt .txt-side .txt-side-blk button {
     padding: 1.042vw 5.208vw;
   }
@@ -1277,6 +1307,10 @@ Ipad*/
   .about-right-txt .img-side {
     width: 100%;
     height: 64.453vw;
+  }
+  .about-right-txt .img-side img {
+    width: 100%;
+    height: 100%;
   }
 
   /*---------------------best recommended section------------------------*/
@@ -1439,6 +1473,12 @@ Ipad*/
     margin-left: 10.417vw;
   }
 
+  .product-right-txt .txt-side .txt-side-blk h3 {
+    max-width: 397px;
+  }
+  .product-right-txt .txt-side .txt-side-blk .txt-side-para br {
+    display: inline-block;
+  }
   .product-right-txt .txt-side .txt-side-blk button {
     padding: 1.042vw 5.208vw;
   }
@@ -1446,6 +1486,9 @@ Ipad*/
   .product-right-txt .img-side {
     width: 100%;
     height: 64.453vw;
+  }
+  .product-right-txt .img-side img{
+    height: 100%;
   }
 
   /*---------------------sooth-stories section------------------------*/
@@ -1710,263 +1753,281 @@ Ipad*/
     text-decoration: underline;
   }
 
-=======
+  /*---------------------About Us Page------------------------*/
+  /*covid section*/
+  .covid-update-sec {
+    padding: 20px 0 50px;
+  }
 
-/*---------------------About Us Page------------------------*/
-/*covid section*/
-.covid-update-sec {
-  padding: 20px 0 50px;
-}
+  .covid-update-sec .cmn-container {
+    flex-direction: column;
+  }
 
-.covid-update-sec .cmn-container {
-  flex-direction: column;
-}
+  .covid-update-sec .covid-sec-lft {
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
 
-.covid-update-sec .covid-sec-lft {
-  margin-top: 0;
-  margin-left: 0;
-  margin-bottom: 40px;
-}
+  .covid-sec-lft span {
+    margin-bottom: 15px;
+    padding: 7px 15px;
+    font-size: 12px;
+  }
 
-.covid-sec-lft span {
-  margin-bottom: 15px;
-  padding: 7px 15px;
-  font-size: 12px;
-}
+  .covid-sec-lft h3 {
+    margin-bottom: 22px;
+    font-size: 48px;
+  }
 
-.covid-sec-lft h3 {
-  margin-bottom: 22px;
-  font-size: 48px;
-}
+  .covid-sec-lft p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
 
-.covid-sec-lft p {
-  line-height: 1.5;
-  font-size: 16px;
-}
+  .covid-update-sec .covid-sec-rgt img {
+    width: 100%;
+    height: 513.43px;
+    margin-left: 0;
+  }
 
-.covid-update-sec .covid-sec-rgt img {
-  width: 100%;
-  height: 513.43px;
-  margin-left: 0;
-}
+  /*our mission*/
+  .mission-sec {
+    padding: 73px 0 140px;
+    background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
+  }
 
-/*our mission*/
-.mission-sec {
-  background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
-  padding:73px 0 140px;
-}
+  .mission-sec .mission-txt {
+    margin-left: 0;
+  }
 
-.mission-sec .mission-txt {
-  margin-left:0;
-}
+  .mission-sec h3 {
+    line-height: 1.15;
+    margin-bottom: 20px;
+    font-size: 48px;
+  }
 
-.mission-sec h3 {
-  margin-bottom: 20px;
-  line-height: 1.15;
-  font-size: 48px;
-}
+  .mission-sec p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
 
-.mission-sec p {
-  line-height: 1.6;
-  font-size: 16px;
-}
+  /*middle-txt*/
+  .middle-txt {
+    padding: 43px 0 39px;
+    border: 1px solid var(--bg-dark-green);
+  }
 
-/*middle-txt*/
-.middle-txt {
-  padding: 43px 0 39px;
-  border: 1px solid var(--bg-dark-green);
-}
+  .middle-txt .mid-title {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
 
-.middle-txt .mid-title {
-  margin-bottom: 10px;
-  font-size: 28px;
-}
+  .middle-txt .mid-para {
+    line-height: 1.1;
+    font-size: 16px;
+  }
 
-.middle-txt .mid-para {
-  line-height: 1.1;
-  font-size: 16px;
-}
+  /*Hand Section*/
 
-/*Hand Section*/
+  .left-right .hand-txt-side button {
+    border: 1px solid var(--txt-black);
+  }
 
-.left-right .hand-txt-side button {
-  border: 1px solid var(--txt-black);
-}
+  /*Pink Hand Section*/
 
-/*Pink Hand Section*/
+  .about-left-txt .default-btn {
+    border: 1px solid var(--txt-black);
+  }
 
-.about-left-txt .default-btn {
-  border: 1px solid var(--txt-black);
-}
+  /*Instagram Section*/
+  .ig-sec {
+    padding: 50px 0 0;
+  }
 
-/*Instagram Section*/
-.ig-sec {
-  padding: 50px 0 0;
-}
+  .ig-sec .cmn-container {
+    text-align: center;
+  }
 
-.ig-sec .cmn-container {
-  text-align: center;
-}
+  .ig-sec .ig-acc-logo {
+    margin-bottom: 40px;
+  }
 
-.ig-sec .ig-acc-logo {
-  margin-bottom: 40px;
-}
+  .ig-acc-logo img {
+    margin-bottom: 9px;
+  }
 
-.ig-acc-logo img {
-  margin-bottom: 9px;
-}
+  .ig-photo-gallery li {
+    margin-right: 57px;
+    margin-bottom: 60px;
+  }
 
-.ig-photo-gallery li {
-  margin-right: 57px;
-  margin-bottom: 60px;
-}
-.ig-photo-gallery li img{
-  width: 314px;
-  height: 255px;
-}
-.ig-photo-gallery li:nth-child(2n) {
-  margin-right: 0;
-}
+  .ig-photo-gallery li img {
+    width: 314px;
+    height: 255px;
+  }
 
-/*---------------------Feature Section-----------------------*/
-.feature-sec {
-  padding-bottom: 80px;
-}
+  .ig-photo-gallery li:nth-child(2n) {
+    margin-right: 0;
+  }
 
-.feature-sec .first-feature {
-  margin-bottom: 85px;
-}
+  /*---------------------Feature Section-----------------------*/
+  .feature-sec {
+    padding-bottom: 80px;
+  }
 
-.feature-sec .cmn-container {
-  flex-direction: column;
-}
+  .feature-sec .first-feature {
+    margin-bottom: 85px;
+  }
 
-.feature-sec .second-feature .feature-txt-side {
-  order: 2;
-}
+  .feature-sec .cmn-container {
+    flex-direction: column;
+  }
 
-.feature-sec .second-feature .feature-img-side {
-  order: 1;
-}
-.feature-sec .feature-img-side {
-  width: 100%;
-  margin-right:0;
-}
+  .feature-sec .second-feature .feature-txt-side {
+    order: 2;
+  }
 
-.feature-sec .feature-img-side img {
-  width: 100%;
-  height: 463px;
-  margin-right:0;
-  margin-bottom: 40px;
-}
+  .feature-sec .second-feature .feature-img-side {
+    order: 1;
+  }
 
-.feature-sec .feature-txt-side {
-  width: 100%;
-}
+  .feature-sec .feature-img-side {
+    width: 100%;
+    margin-right: 0;
+  }
 
-.feature-sec .feature-txt-side .feature-txt-blk {
-  margin-top: -10px;
-}
+  .feature-sec .feature-img-side img {
+    width: 100%;
+    height: 463px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
 
-.feature-sec .feature-txt-side strong {
-  display: inline-block;
-  margin-bottom: 22px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  .feature-sec .feature-txt-side {
+    width: 100%;
+  }
 
-.feature-sec .feature-txt-side h3 {
-  line-height: 1.19;
-  margin-bottom: 28px;
-  color: var(--bg-dark-green);
-  font-size: 28px;
-  font-weight: 700;
-}
+  .feature-sec .feature-txt-side .feature-txt-blk {
+    margin-top: -10px;
+  }
 
-.feature-sec .feature-txt-side p {
-  line-height: 1.5;
-  font-size: 16px;
-}
+  .feature-sec .feature-txt-side strong {
+    display: inline-block;
+    margin-bottom: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 
-.feature-sec .feature-txt-lft {
-  margin-left:0;
-}
+  .feature-sec .feature-txt-side h3 {
+    line-height: 1.19;
+    margin-bottom: 28px;
+    color: var(--bg-dark-green);
+    font-size: 28px;
+    font-weight: 700;
+  }
 
-.feature-sec .feature-right-img {
-  margin-right: 0;
-  margin-left:0;
-}
-.second-feature .feature-txt-lft{
-  margin-left: 7px;
-}
+  .feature-sec .feature-txt-side p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
 
-/*---------------------Contact Us Page------------------------*/
-.contact-us-section{
-  padding:53px 0 50px;
-}
-.contact-us-section .contact-us-intro{
-  margin-bottom: 45px;
-}
-.contact-us-section .contact-us-intro .contact-us-title{
-  font-size: 48px;
-  margin-bottom: 30px;
-}
-.contact-us-section .contact-us-intro p{
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-.contact-us-section .contact-us-intro .contact-us-list{
-  margin-bottom: 25px;
-}
-.contact-us-section .contact-us-intro .contact-us-list li{
-  margin-left: 13px;
-  margin-bottom: 10px;
-}
-.contact-us-intro .contact-us-list li::marker{
-  font-size: 13px;
-}
-.contact-us-boxes{
-  flex-direction: column;
-  align-items: center;
-}
-.contact-us-boxes .contact-box{
-  width: 512px;
-}
-.contact-us-boxes .contact-first-box{
-  padding: 35px 280px 13px 38px;
-  margin-right: 0;
-  margin-bottom: 40px;
-}
-.contact-us-boxes .contact-first-box .contact-label{
-  margin-bottom: 31px;
-}
-.contact-us-boxes .contact-first-box .contact-label a{
-  text-decoration: underline;
-}
-.contact-first-box .contact-label .contact-info-ttl{
-  font-size: 16px;
-  margin-bottom: 8px;
-  font-weight: 700;
-}
-.contact-us-boxes .contact-second-box{
-  padding: 33px 0 38px 45px;
-  background-color: var(--white);
-}
-.contact-second-box .contact-second-label{
-  font-weight: 700;
-  margin-bottom: 29px;
-}
-.contact-second-box .contact-second-address{
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 28px;
-}
-.contact-second-box .contact-ph-no .phone{
-  cursor: pointer;
-  pointer-events: auto;
-}
->>>>>>> Stashed changes
+  .feature-sec .feature-txt-lft {
+    margin-left: 0;
+  }
+
+  .feature-sec .feature-right-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .second-feature .feature-txt-lft {
+    margin-left: 7px;
+  }
+
+  /*---------------------Contact Us Page------------------------*/
+  .contact-us-section {
+    padding: 53px 0 50px;
+  }
+
+  .contact-us-section .contact-us-intro {
+    margin-bottom: 45px;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-title {
+    margin-bottom: 30px;
+    font-size: 48px;
+  }
+
+  .contact-us-section .contact-us-intro p {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-list {
+    margin-bottom: 25px;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-list li {
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+
+  .contact-us-intro .contact-us-list li::marker {
+    font-size: 13px;
+  }
+
+  .contact-us-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-boxes .contact-box {
+    width: 512px;
+  }
+
+  .contact-us-boxes .contact-first-box {
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 35px 280px 13px 38px;
+  }
+
+  .contact-us-boxes .contact-first-box .contact-label {
+    margin-bottom: 31px;
+  }
+
+  .contact-us-boxes .contact-first-box .contact-label a {
+    text-decoration: underline;
+  }
+
+  .contact-first-box .contact-label .contact-info-ttl {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .contact-us-boxes .contact-second-box {
+    padding: 33px 0 38px 45px;
+    background-color: var(--white);
+  }
+
+  .contact-second-box .contact-second-label {
+    margin-bottom: 29px;
+    font-weight: 700;
+  }
+
+  .contact-second-box .contact-second-address {
+    line-height: 1.5;
+    margin-bottom: 28px;
+    font-size: 16px;
+  }
+
+  .contact-second-box .contact-ph-no .phone {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+
 }
 
 /*SP*/
@@ -2002,7 +2063,7 @@ Ipad*/
   /*---------------------most-popular------------------------*/
 
   .mp {
-    padding: 6.25vw 0 8.906vw 0;
+    padding: 6.25vw 0 9.3vw 0;
   }
 
   .mp-ttl-blk {
@@ -2031,6 +2092,9 @@ Ipad*/
   .cp-banner .txt-left .txt-side-blk {
     margin-left: 12.5vw;
   }
+  .cp-banner .txt-left .txt-side-blk {
+    max-width: 429px;
+  }
 
   .cp-banner .txt-left .txt-side-blk button {
     padding: 1.25vw 6.25vw;
@@ -2040,10 +2104,13 @@ Ipad*/
     width: 100%;
     height: 77.344vw;
   }
+  .cp-banner .img-side img{
+    height: 100%;
+   }
 
   /*---------------------top-recommended------------------------*/
   .tr {
-    padding: 7.031vw 0 9.219vw 0;
+    padding: 6.8vw 0 9.219vw 0;
   }
 
   .tr-ttl-blk {
@@ -2074,7 +2141,12 @@ Ipad*/
   .about-right-txt .txt-side .txt-side-blk {
     margin-left: 12.5vw;
   }
-
+  .about-right-txt .txt-side .txt-side-blk h3{
+    max-width: 397px;
+  }
+  .about-right-txt .txt-side .txt-side-blk p{
+    max-width: 427px;
+  }
   .about-right-txt .txt-side .txt-side-blk button {
     padding: 1.25vw 6.25vw;
   }
@@ -2082,6 +2154,10 @@ Ipad*/
   .about-right-txt .img-side {
     width: 100%;
     height: 77.344vw;
+  }
+  .about-right-txt .img-side img {
+    width: 100%;
+    height: 100%;
   }
 
   /*---------------------best recommended section------------------------*/
@@ -2106,7 +2182,7 @@ Ipad*/
 
   /*---------------------ingredients-section------------------------*/
   .ingredients {
-    padding: 8.594vw 0 0.156vw 0;
+    padding: 8.9vw 0 0.156vw 0;
   }
 
   .ingredients .ingre-ttl-blk p {
@@ -2267,270 +2343,294 @@ Ipad*/
   .stories {
     padding: 7.188vw 0 7.344vw 0;
   }
-=======
-.pc{
-  display: none;
-}
-.sp{
-  display: block;
-}
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
   /*---------------------About Us Page------------------------*/
-/*covid section*/
-.mobile{
-  display: none;
-}
-.covid-update-sec {
-  padding: 30px 0 60px;
-}
+  /*covid section*/
+  .mobile {
+    display: none;
+  }
 
-.covid-update-sec .cmn-container {
-  flex-direction: column;
-}
+  .covid-update-sec {
+    padding: 30px 0 60px;
+  }
 
-.covid-update-sec .covid-sec-lft {
-  margin-top: 0;
-  margin-left: 2px;
-  margin-bottom: 40px;
-}
+  .covid-update-sec .cmn-container {
+    flex-direction: column;
+  }
 
-.covid-sec-lft span {
-  margin-bottom: 15px;
-  padding: 7px 15px;
-  font-size: 12px;
-}
+  .covid-update-sec .covid-sec-lft {
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: 2px;
+  }
 
-.covid-sec-lft h3 {
-  margin-bottom: 24px;
-  font-size: 48px;
-}
+  .covid-sec-lft span {
+    margin-bottom: 15px;
+    padding: 7px 15px;
+    font-size: 12px;
+  }
 
-.covid-sec-lft p {
-  line-height: 1.5;
-  font-size: 16px;
-  margin-bottom: -10px;
-}
+  .covid-sec-lft h3 {
+    margin-bottom: 24px;
+    font-size: 48px;
+  }
 
-.covid-update-sec .covid-sec-rgt img {
-  width: 100%;
-  height: 449.5px;
-  margin-left: 0;
-}
+  .covid-sec-lft p {
+    line-height: 1.5;
+    margin-bottom: -10px;
+    font-size: 16px;
+  }
 
-/*our mission*/
-.mission-sec {
-  background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
-  padding:80px 0 155px;
-}
+  .covid-update-sec .covid-sec-rgt img {
+    width: 100%;
+    height: 449.5px;
+    margin-left: 0;
+  }
 
-.mission-sec .mission-txt {
-  margin-left:20px;
-}
+  /*our mission*/
+  .mission-sec {
+    padding: 80px 0 155px;
+    background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
+  }
 
-.mission-sec h3 {
-  margin-bottom: 20px;
-  line-height: 1.15;
-  font-size: 48px;
-}
+  .mission-sec .mission-txt {
+    margin-left: 20px;
+  }
 
-.mission-sec p {
-  line-height: 1.6;
-  color: var(--txt-black);
-  font-size: 16px;
-}
+  .mission-sec h3 {
+    line-height: 1.15;
+    margin-bottom: 20px;
+    font-size: 48px;
+  }
 
-/*middle-txt*/
-.middle-txt {
-  padding: 44px 0 39px;
-  border: 1px solid var(--bg-dark-green);
-}
+  .mission-sec p {
+    line-height: 1.6;
+    color: var(--txt-black);
+    font-size: 16px;
+  }
 
-.middle-txt .mid-title {
-  margin-bottom: 10px;
-  font-size: 28px;
-}
+  /*middle-txt*/
+  .middle-txt {
+    padding: 44px 0 39px;
+    border: 1px solid var(--bg-dark-green);
+  }
 
-.middle-txt .mid-para {
-  line-height: 1.2;
-  font-size: 16px;
-}
+  .middle-txt .mid-title {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
 
-/*Hand Section*/
+  .middle-txt .mid-para {
+    line-height: 1.2;
+    font-size: 16px;
+  }
 
-.left-right .hand-txt-side button {
-  border: 1px solid var(--txt-black);
-}
+  /*Hand Section*/
 
-/*Pink Hand Section*/
+  .left-right .hand-txt-side button {
+    border: 1px solid var(--txt-black);
+  }
 
-.about-left-txt .default-btn {
-  border: 1px solid var(--txt-black);
-}
+  /*Pink Hand Section*/
 
-/*Instagram Section*/
-.ig-sec {
-  padding: 60px 0 36px;
-}
+  .about-left-txt .default-btn {
+    border: 1px solid var(--txt-black);
+  }
 
-.ig-sec .cmn-container {
-  text-align: center;
-}
+  /*Instagram Section*/
+  .ig-sec {
+    padding: 60px 0 36px;
+  }
 
-.ig-sec .ig-acc-logo {
-  margin-bottom: 40px;
-}
+  .ig-sec .cmn-container {
+    text-align: center;
+  }
 
-.ig-acc-logo img {
-  margin-bottom: 9px;
-}
+  .ig-sec .ig-acc-logo {
+    margin-bottom: 40px;
+  }
 
-.ig-photo-gallery li {
-  margin-right: 24px;
-  margin-bottom: 24px;
-}
-.ig-photo-gallery li img{
-  width: 255px;
-  height: 255px;
-}
-.ig-photo-gallery li:nth-child(2n) {
-  margin-right: 0;
-}
+  .ig-acc-logo img {
+    margin-bottom: 9px;
+  }
 
-/*---------------------Feature Section-----------------------*/
-.feature-sec {
-  padding: 0 25px 80px;
-}
+  .ig-photo-gallery li {
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
 
-.feature-sec .first-feature {
-  margin-bottom: 85px;
-}
+  .ig-photo-gallery li img {
+    width: 255px;
+    height: 255px;
+  }
 
-.feature-sec .cmn-container {
-  flex-direction: column;
-}
+  .ig-photo-gallery li:nth-child(2n) {
+    margin-right: 0;
+  }
 
-.feature-sec .second-feature .feature-txt-side {
-  order: 2;
-}
+  /*---------------------Feature Section-----------------------*/
+  .feature-sec {
+    padding: 0 25px 80px;
+  }
 
-.feature-sec .second-feature .feature-img-side {
-  order: 1;
-}
-.feature-sec .feature-img-side {
-  width: 100%;
-  margin-right:0;
-}
+  .feature-sec .first-feature {
+    margin-bottom: 85px;
+  }
 
-.feature-sec .feature-img-side img {
-  width: 100%;
-  height: 377px;
-  margin-right:0;
-  margin-bottom: 40px;
-}
+  .feature-sec .cmn-container {
+    flex-direction: column;
+  }
 
-.feature-sec .feature-txt-side {
-  width: 100%;
-}
+  .feature-sec .second-feature .feature-txt-side {
+    order: 2;
+  }
 
-.feature-sec .feature-txt-side .feature-txt-blk {
-  margin-top: -10px;
-}
+  .feature-sec .second-feature .feature-img-side {
+    order: 1;
+  }
 
-.feature-sec .feature-txt-side strong {
-  display: inline-block;
-  margin-bottom: 22px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  .feature-sec .feature-img-side {
+    width: 100%;
+    margin-right: 0;
+  }
 
-.feature-sec .feature-txt-side h3 {
-  line-height: 1.19;
-  margin-bottom: 28px;
-  color: var(--bg-dark-green);
-  font-size: 28px;
-  font-weight: 700;
-}
+  .feature-sec .feature-img-side img {
+    width: 100%;
+    height: 377px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
 
-.feature-sec .feature-txt-side p {
-  line-height: 1.5;
-  font-size: 16px;
-}
+  .feature-sec .feature-txt-side {
+    width: 100%;
+  }
 
-.feature-sec .feature-txt-lft {
-  margin-left:0;
-}
+  .feature-sec .feature-txt-side .feature-txt-blk {
+    margin-top: -10px;
+  }
 
-.feature-sec .feature-right-img {
-  margin-right: 0;
-  margin-left:0;
-}
-.second-feature .feature-txt-lft{
-  margin-left: 7px;
-}
-/*---------------------Contact Us Page------------------------*/
-.contact-us-section{
-  padding:42px 0 50px;
-}
-.contact-us-section .contact-us-intro{
-  margin-bottom: 58px;
-}
-.contact-us-section .contact-us-intro .contact-us-title{
-  font-size: 48px;
-  margin-bottom: 34px;
-}
-.contact-us-section .contact-us-intro p{
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-.contact-us-section .contact-us-intro .contact-us-list{
-  margin-bottom: 25px;
-}
-.contact-us-section .contact-us-intro .contact-us-list li{
-  margin-left: 13px;
-  margin-bottom: 10px;
-}
-.contact-us-intro .contact-us-list li::marker{
-  font-size: 13px;
-}
-.contact-us-boxes{
-  flex-direction: column;
-  align-items: center;
-}
-.contact-us-boxes .contact-box{
-  width: 516px;
-}
-.contact-us-boxes .contact-first-box{
-  padding: 35px 280px 13px 38px;
-  margin-right: 0;
-  margin-bottom: 40px;
-}
-.contact-us-boxes .contact-first-box .contact-label{
-  margin-bottom: 31px;
-}
-.contact-us-boxes .contact-first-box .contact-label a{
-  text-decoration: underline;
-}
-.contact-first-box .contact-label .contact-info-ttl{
-  font-size: 16px;
-  margin-bottom: 8px;
-  font-weight: 700;
-}
-.contact-us-boxes .contact-second-box{
-  padding: 33px 0 68px 45px;
-  background-color: var(--white);
-}
-.contact-second-box .contact-second-label{
-  font-weight: 700;
-  margin-bottom: 29px;
-}
-.contact-second-box .contact-second-address{
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 28px;
-}
-.contact-second-box .contact-ph-no .phone{
-  cursor: pointer;
-  pointer-events: auto;
-}
->>>>>>> Stashed changes
+  .feature-sec .feature-txt-side strong {
+    display: inline-block;
+    margin-bottom: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .feature-sec .feature-txt-side h3 {
+    line-height: 1.19;
+    margin-bottom: 28px;
+    color: var(--bg-dark-green);
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .feature-sec .feature-txt-side p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .feature-sec .feature-txt-lft {
+    margin-left: 0;
+  }
+
+  .feature-sec .feature-right-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .second-feature .feature-txt-lft {
+    margin-left: 7px;
+  }
+
+  /*---------------------Contact Us Page------------------------*/
+  .contact-us-section {
+    padding: 42px 0 50px;
+  }
+
+  .contact-us-section .contact-us-intro {
+    margin-bottom: 58px;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-title {
+    margin-bottom: 34px;
+    font-size: 48px;
+  }
+
+  .contact-us-section .contact-us-intro p {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-list {
+    margin-bottom: 25px;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-list li {
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+
+  .contact-us-intro .contact-us-list li::marker {
+    font-size: 13px;
+  }
+
+  .contact-us-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-boxes .contact-box {
+    width: 516px;
+  }
+
+  .contact-us-boxes .contact-first-box {
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 35px 280px 13px 38px;
+  }
+
+  .contact-us-boxes .contact-first-box .contact-label {
+    margin-bottom: 31px;
+  }
+
+  .contact-us-boxes .contact-first-box .contact-label a {
+    text-decoration: underline;
+  }
+
+  .contact-first-box .contact-label .contact-info-ttl {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .contact-us-boxes .contact-second-box {
+    padding: 33px 0 68px 45px;
+    background-color: var(--white);
+  }
+
+  .contact-second-box .contact-second-label {
+    margin-bottom: 29px;
+    font-weight: 700;
+  }
+
+  .contact-second-box .contact-second-address {
+    line-height: 1.5;
+    margin-bottom: 28px;
+    font-size: 16px;
+  }
+
+  .contact-second-box .contact-ph-no .phone {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+
 }
