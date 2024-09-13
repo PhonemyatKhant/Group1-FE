@@ -18,18 +18,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-<<<<<<< HEAD
-.slick-list {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  /* margin: 0 88px; */
-  /* padding: 0 0 20px 0; */
-}
-=======
 .slick-list
 {
->>>>>>> f0b60e7334e32582adbda0ba6ba82ab2c41f9406
 
     display: block;
     position: relative;
@@ -92,38 +82,17 @@
     height: 100%;
     min-height: 1px;
 }
-<<<<<<< HEAD
-
-.slick-slide {
-  display: none;
-  float: left;
-  height: 100%;
-  /* margin: 0 30px 0 30px; */
-  background-color: var(--white);
-  cursor: pointer;
-  border-radius: 6px;
-  /* max-width: 1400px; */
-  min-height: 1px;
-=======
 [dir='rtl'] .slick-slide
 {
     float: right;
->>>>>>> f0b60e7334e32582adbda0ba6ba82ab2c41f9406
 }
 .slick-slide img
 {
     display: block;
 }
-<<<<<<< HEAD
-
-.slick-slide img {
-  display: block;
-  /* height: 180px; */
-=======
 .slick-slide.slick-loading img
 {
     display: none;
->>>>>>> f0b60e7334e32582adbda0ba6ba82ab2c41f9406
 }
 .slick-slide.dragging img
 {
@@ -161,22 +130,14 @@
 
 .mv-lt .slick-prev {
   left: 0;
-<<<<<<< HEAD
-  background: url(/img/catogery/left.png) center/contain no-repeat;
-=======
   margin-left: 20px;
   background: url(/img/product/img_arrow_left.png) center/contain no-repeat;
->>>>>>> f0b60e7334e32582adbda0ba6ba82ab2c41f9406
 }
 
 .mv-lt .slick-next {
   right: 0;
-<<<<<<< HEAD
-  background: url(/img/catogery/right.png) center/contain no-repeat;
-=======
     margin-right: 20px;
   background: url(/img/product/img_arrow_right.png) center/contain no-repeat;
->>>>>>> f0b60e7334e32582adbda0ba6ba82ab2c41f9406
 }
 
 .mv-lt .slick-dots {
@@ -187,18 +148,6 @@
   gap: 10px;
 }
 
-<<<<<<< HEAD
-.slick-dots li button {
-  width: 10px;
-  font-size: 0px;
-  border: 1px solid #FF8800;
-  aspect-ratio: 1;
-  border-radius: 100%;
-}
-
-.slick-dots .slick-active button {
-  background-color: #FF8800;
-=======
 .mv-lt .slick-dots li button {
   width: 15px;
   border: 1px solid var(--bg-dark-green);
@@ -208,8 +157,18 @@
 }
 .mv-lt .slick-dots li:first-of-type{
     padding-left: 21px;
->>>>>>> f0b60e7334e32582adbda0ba6ba82ab2c41f9406
 }
 .mv-lt .slick-dots .slick-active button {
   background-color: var(--bg-dark-green);
+}
+/*TABLET */
+@media screen and (min-width:768px) and (max-width:1180px){
+    .mv-lt .slick-list{
+        padding-bottom: 34.5px;
+    }
+}
+
+/*SP*/
+@media screen and (max-width:767.9px){
+    
 }
