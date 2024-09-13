@@ -200,7 +200,7 @@ input {
 
 .left-right .txt-side {
   width: 50%;
-  padding: 225px 0 206px;
+  padding: 227px 0 206px;
   background-color: #547665;
 }
 
@@ -209,7 +209,7 @@ input {
 }
 
 .left-right .txt-left .txt-side-blk {
-  margin-left: 169px;
+  margin-left: 170px;
 }
 
 .txt-side-blk .txt-side-title {
@@ -221,44 +221,45 @@ input {
 }
 
 .txt-side-blk .txt-side-para {
-  line-height: 1.6;
-  margin-bottom: 53px;
+  line-height: 1.5;
+  margin-bottom: 57px;
   color: var(--white);
   font-size: 16px;
 }
 
 .txt-side-blk .default-btn {
-  padding: 9px 38px;
+  padding: 9px 40px 9px 39px;
   border: 1px solid var(--bg-light-green);
   background-color: transparent;
   color: var(--white);
 }
+
 /* -------------------clean product----------------*/
 .clean-wrapper {
-  background-color: #35736A;
   display: flex;
+  background-color: #35736A;
 }
 
 .clean-artl {
-  padding: 223px 101px 198px 170px;
   line-height: 1.5;
+  padding: 223px 101px 198px 170px;
 }
 
 .clean-artl h2 {
+  color: #fff;
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
 }
 
 .clean-artl p {
+  margin: 19px 0px 60px 0px;
   color: #fff;
-  margin: 19px 0px 60px 0px ;
 }
 
 .clean-artl a {
-  color:#fff;
-  border: 1px solid #fff;
   padding: 4px 40px;
+  border: 1px solid #fff;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
 }
@@ -294,9 +295,9 @@ footer {
 
 .join-wrapper h3 {
   padding-right: 17px;
-  border-right: 2px solid;
   font-size: 32px;
   font-weight: 700;
+  border-right: 2px solid;
 }
 
 .join-wrapper p {
@@ -305,8 +306,8 @@ footer {
 }
 
 .joinsub {
-  margin: 15px 0px 0px 57px;
   display: flex;
+  margin: 15px 0px 0px 57px;
 }
 
 .join-input {
@@ -314,18 +315,18 @@ footer {
 }
 
 .joinsub input {
+  height: 67%;
   padding: 12px 41px;
   border: 1px solid #FF8800;
-  height: 67%;
 }
 
 .joinsub button {
-  
-  background-color: #FF8800;
-  color: #fff;
-  padding: 14px 31px;
   display: inline-block;
   height: 67%;
+  padding: 14px 31px;
+
+  background-color: #FF8800;
+  color: #fff;
 }
 
 .footer-wrapper {
@@ -336,7 +337,7 @@ footer {
 
 .footer-list-wrapper {
   display: flex;
-  gap:83px;
+  gap: 83px;
 }
 
 .footer-logo-wrapper p {
@@ -475,175 +476,228 @@ Ipad*/
   /* -------------------clean product----------------*/
   .clean-wrapper {
     background-color: #35736A;
+=======
+>>>>>>> 6aec61991905a781ebebb9eeb82cb322d07ff4b7
     display: block;
   }
-  
+
+/*---------------------Left and Right------------------------*/
+.left-right {
+  flex-direction: column;
+}
+
+.left-right .txt-side {
+  width: 100%;
+  padding: 100px 0 98px;
+}
+
+.left-right .txt-side .txt-side-blk {
+  margin-left: 81px;
+}
+
+.left-right .txt-left .txt-side-blk {
+  margin-left: 80px;
+}
+
+.txt-side-blk .txt-side-title {
+  line-height: 1.4;
+  margin-bottom: 22px;
+  font-size: 40px;
+}
+
+.txt-side-blk .txt-side-para {
+  line-height: 1.5;
+  margin-bottom: 56px;
+  font-size: 16px;
+}
+
+.txt-side-blk .default-btn {
+  padding: 9px 38px;
+  font-size: 14px;
+}
+
+.left-right .img-side {
+  width: 100%;
+}
+
+.left-right .img-side img {
+  width: 100%;
+}
+
+
+
+  /* -------------------clean product----------------*/
+  .clean-wrapper {
+    display: block;
+    background-color: #35736A;
+  }
+
   .clean-artl {
-    padding: 13.036vw 23.151vw 12.782vw 5.136vw;
     line-height: 1.5;
+    padding: 13.036vw 23.151vw 12.782vw 5.136vw;
   }
 
   .clean-wrapper img {
-    max-height: 64.714vw;
     width: 100%;
+    max-height: 64.714vw;
 
   }
-  
+
   .clean-artl h2 {
+    color: #fff;
     font-size: 5.209vw;
     font-weight: 700;
-    color: #fff;
   }
-  
+
   .clean-artl p {
+    margin: 2.474vw 0vw 7.813vw 0vw;
     color: #fff;
-    margin: 2.474vw 0vw 7.813vw 0vw ;
   }
-  
+
   .clean-artl a {
-    color:#fff;
-    border: 0.131vw solid #fff;
     padding: 0.521vw 5.209vw;
+    border: 0.131vw solid #fff;
+    color: #fff;
     font-size: 1.822vw;
     font-weight: 700;
   }
-  
+
   /* ----------footer----------------- */
   footer {
     background-color: #354E57;
   }
-  
+
   .join {
-    background-color: #fff;
-    padding: 6.557vw 0vw 5vw 0vw;
     line-height: 1.2;
+    padding: 6.557vw 0vw 5vw 0vw;
+    background-color: #fff;
   }
-  
+
   .join-wrapper {
     display: block;
   }
-  
+
   .join-wrapper h3 {
     padding-right: 2.214vw;
-    border-right: none;
+    color: #354E57;
     font-size: 4.167vw;
     font-weight: 700;
-    color: #354E57;
+    border-right: none;
   }
-  
+
   .join-wrapper p {
     width: 50%;
     margin: 5.953vw 0vw 0vw 0vw;
   }
-  
+
   .joinsub {
-    margin: 6.953vw 0vw 0vw 7.423vw;
     display: flex;
+    margin: 6.953vw 0vw 0vw 7.423vw;
   }
-  
+
   .join-input {
     display: flex;
   }
-  
+
   .joinsub input {
+    height: 67%;
     padding: 1.563vw 5.339vw;
     border: 0.131vw solid #FF8800;
-    height: 67%;
   }
-  
+
   .joinsub button {
-    background-color: #FF8800;
-    color: #fff;
-    padding: 0vw 4.036vw;
     display: inline-block;
     height: 67%;
+    padding: 0vw 4.036vw;
+    background-color: #FF8800;
+    color: #fff;
   }
-  
+
   .footer-wrapper {
     display: block;
     padding: 7.719vw 0vw 5.534vw 0vw;
   }
-  
+
   .footer-list-wrapper {
     display: flex;
-    gap:14.807vw;
     margin-left: 4.557vw;
+    gap: 14.807vw;
   }
-  
+
   .footer-logo-wrapper p {
-    font-size: 2.083vw;
-    color: #FFF;
     margin: 3.906vw 0vw 6.51vw 0vw;
+    color: #FFF;
+    font-size: 2.083vw;
   }
-  
+
   .footer-logo-wrapper input {
-    font-size: 1.822vw;
-    border: 0.131vw solid #fff;
     padding: 1.563vw 9.376vw 1.563vw 1.042vw;
-    background-color: #354E57 ;
+    border: 0.131vw solid #fff;
+    background-color: #354E57;
+    font-size: 1.822vw;
   }
-  
+
   ::placeholder {
     color: #fff;
   }
-  
+
   .footer-logo-wrapper button {
+    padding: 1.563vw 3.906vw;
+    border: 0.131vw solid #fff;
+    background-color: #354E57;
     color: #fff;
     font-size: 1.822vw;
-    border: 0.131vw solid #fff;
-    padding: 1.563vw 3.906vw;
-    background-color: #354E57;
   }
-  
+
   .footer-list-wrapper ul {
-    color: #fff;
     line-height: 1.8;
     margin-top: 5.459vw;
+    color: #fff;
   }
-  
+
   .footer-list-wrapper ul h5 {
     margin-bottom: 1.172vw;
     font-weight: 700;
   }
-  
+
   .more {
     padding-right: 3.906vw;
   }
-  
+
   .copy p {
+    margin: 3.51vw 0vw 3.906vw 0vw;
     color: #fff;
     font-size: 2.083vw;
-    margin: 3.51vw 0vw 3.906vw 0vw;
   }
-  
+
   .copy ul {
     display: flex;
     color: #fff;
     font-size: 2.083vw;
     gap: 5.417vw;
   }
-  
+
   .copy-wrapper {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .icon {
-      color: #fff;
-      display: flex;
-      gap: 2.995vw;
-      font-size: 3.515vw;
-      margin: 3.51vw 0vw 0vw 0vw;
+    display: flex;
+    margin: 3.51vw 0vw 0vw 0vw;
+    color: #fff;
+    font-size: 3.515vw;
+    gap: 2.995vw;
   }
-  
+
   .copy-wrapper {
     padding-bottom: 10.417vw;
   }
-  
+
   .copy ul li a {
     text-decoration: underline;
   }
-  
+
 }
 
 /*SP*/
@@ -685,7 +739,6 @@ Ipad*/
   }
 
   .nav-links {
-    height: 0;
     display: none;
     position: absolute;
     top: 100%;
@@ -694,10 +747,11 @@ Ipad*/
     align-items: start;
     z-index: 100;
     width: 100%;
+    height: 0;
     padding: 94px 0 295px 41px;
     background-color: var(--white);
-    gap: 41px;
     transition: all 0.3s ease;
+    gap: 41px;
   }
 
   .nav-links.show {
@@ -748,12 +802,12 @@ Ipad*/
 
 .txt-side-blk .txt-side-para {
   line-height: 1.5;
-  margin-bottom: 56px;
+  margin-bottom: 58px;
   font-size: 16px;
 }
 
 .txt-side-blk .default-btn {
-  padding: 9px 38px;
+  padding: 8px 38px;
   font-size: 14px;
 }
 
