@@ -680,6 +680,9 @@ SP => Screen Size - 640px*/
 }
 
 /*---------------------About Us Page------------------------*/
+.about-bdy{
+  overflow-x: hidden;
+}
 /*covid section*/
 .covid-update-sec {
   padding: 50px 0 80px;
@@ -727,6 +730,7 @@ SP => Screen Size - 640px*/
   padding: 155px 0 196px;
   background: url("../img/about-us/our_mission.png") no-repeat center/cover;
   max-width: 100%;
+  max-width: 1400px;
 }
 
 .mission-sec .mission-txt {
@@ -861,6 +865,7 @@ SP => Screen Size - 640px*/
 
 .feature-sec .feature-img-side img {
   width: 560px;
+  width: 100%;
   height: 377px;
   margin-right: 9px;
 }
@@ -1098,6 +1103,83 @@ SP => Screen Size - 640px*/
 }
 
 
+/*---------------------Contact Us Page------------------------*/
+.contact-us-section{
+  padding:53px 0 50px;
+  background-color: #F7F7F7;
+}
+.contact-us-section .contact-us-intro{
+  margin-bottom: 33px;
+}
+.contact-us-section .contact-us-intro .contact-us-title{
+  font-size: 48px;
+  font-weight: 700;
+  color:var(--txt-black);
+  margin-bottom: 30px;
+}
+.contact-us-section .contact-us-intro p{
+  color: var(--txt-black);
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list{
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list li{
+  list-style-type: disc;
+  margin-left: 13px;
+  margin-bottom: 10px;
+  color: var(--bg-dark-green);
+  font-weight: 700;
+}
+.contact-us-intro .contact-us-list li::marker{
+  font-size: 13px;
+  vertical-align: middle;
+}
+.contact-us-section .contact-us-intro .contact-us-list span{
+  color: var(--orange);
+}
+.contact-us-boxes{
+  display: flex;
+  justify-content:center;
+}
+.contact-us-boxes .contact-box{
+  width: 516px;
+}
+.contact-us-boxes .contact-first-box{
+  padding: 35px 280px 13px 36px;
+  background-color: var(--white);
+  margin-right: 40px;
+}
+.contact-us-boxes .contact-first-box .contact-label{
+  margin-bottom: 31px;
+}
+.contact-us-boxes .contact-first-box .contact-label a{
+  text-decoration: underline;
+}
+.contact-first-box .contact-label .contact-info-ttl{
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.contact-us-boxes .contact-second-box{
+  padding: 37px 0 38px 47px;
+  background-color: var(--white);
+}
+.contact-second-box .contact-second-label{
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+.contact-second-box .contact-second-address{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+.contact-second-box .contact-ph-no .phone{
+  cursor: none;
+  pointer-events: none;
+}
 /*Media Query
 Ipad*/
 @media screen and (min-width:768px) and (max-width:1180px) {
@@ -1631,6 +1713,263 @@ Ipad*/
     text-decoration: underline;
   }
 
+=======
+
+/*---------------------About Us Page------------------------*/
+/*covid section*/
+.covid-update-sec {
+  padding: 20px 0 50px;
+}
+
+.covid-update-sec .cmn-container {
+  flex-direction: column;
+}
+
+.covid-update-sec .covid-sec-lft {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+
+.covid-sec-lft span {
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  font-size: 12px;
+}
+
+.covid-sec-lft h3 {
+  margin-bottom: 22px;
+  font-size: 48px;
+}
+
+.covid-sec-lft p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.covid-update-sec .covid-sec-rgt img {
+  width: 100%;
+  height: 513.43px;
+  margin-left: 0;
+}
+
+/*our mission*/
+.mission-sec {
+  background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
+  padding:73px 0 140px;
+}
+
+.mission-sec .mission-txt {
+  margin-left:0;
+}
+
+.mission-sec h3 {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 48px;
+}
+
+.mission-sec p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/*middle-txt*/
+.middle-txt {
+  padding: 43px 0 39px;
+  border: 1px solid var(--bg-dark-green);
+}
+
+.middle-txt .mid-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.middle-txt .mid-para {
+  line-height: 1.1;
+  font-size: 16px;
+}
+
+/*Hand Section*/
+
+.left-right .hand-txt-side button {
+  border: 1px solid var(--txt-black);
+}
+
+/*Pink Hand Section*/
+
+.about-left-txt .default-btn {
+  border: 1px solid var(--txt-black);
+}
+
+/*Instagram Section*/
+.ig-sec {
+  padding: 50px 0 0;
+}
+
+.ig-sec .cmn-container {
+  text-align: center;
+}
+
+.ig-sec .ig-acc-logo {
+  margin-bottom: 40px;
+}
+
+.ig-acc-logo img {
+  margin-bottom: 9px;
+}
+
+.ig-photo-gallery li {
+  margin-right: 57px;
+  margin-bottom: 60px;
+}
+.ig-photo-gallery li img{
+  width: 314px;
+  height: 255px;
+}
+.ig-photo-gallery li:nth-child(2n) {
+  margin-right: 0;
+}
+
+/*---------------------Feature Section-----------------------*/
+.feature-sec {
+  padding-bottom: 80px;
+}
+
+.feature-sec .first-feature {
+  margin-bottom: 85px;
+}
+
+.feature-sec .cmn-container {
+  flex-direction: column;
+}
+
+.feature-sec .second-feature .feature-txt-side {
+  order: 2;
+}
+
+.feature-sec .second-feature .feature-img-side {
+  order: 1;
+}
+.feature-sec .feature-img-side {
+  width: 100%;
+  margin-right:0;
+}
+
+.feature-sec .feature-img-side img {
+  width: 100%;
+  height: 463px;
+  margin-right:0;
+  margin-bottom: 40px;
+}
+
+.feature-sec .feature-txt-side {
+  width: 100%;
+}
+
+.feature-sec .feature-txt-side .feature-txt-blk {
+  margin-top: -10px;
+}
+
+.feature-sec .feature-txt-side strong {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.feature-sec .feature-txt-side h3 {
+  line-height: 1.19;
+  margin-bottom: 28px;
+  color: var(--bg-dark-green);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.feature-sec .feature-txt-side p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.feature-sec .feature-txt-lft {
+  margin-left:0;
+}
+
+.feature-sec .feature-right-img {
+  margin-right: 0;
+  margin-left:0;
+}
+.second-feature .feature-txt-lft{
+  margin-left: 7px;
+}
+
+/*---------------------Contact Us Page------------------------*/
+.contact-us-section{
+  padding:53px 0 50px;
+}
+.contact-us-section .contact-us-intro{
+  margin-bottom: 45px;
+}
+.contact-us-section .contact-us-intro .contact-us-title{
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.contact-us-section .contact-us-intro p{
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list{
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list li{
+  margin-left: 13px;
+  margin-bottom: 10px;
+}
+.contact-us-intro .contact-us-list li::marker{
+  font-size: 13px;
+}
+.contact-us-boxes{
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-boxes .contact-box{
+  width: 512px;
+}
+.contact-us-boxes .contact-first-box{
+  padding: 35px 280px 13px 38px;
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+.contact-us-boxes .contact-first-box .contact-label{
+  margin-bottom: 31px;
+}
+.contact-us-boxes .contact-first-box .contact-label a{
+  text-decoration: underline;
+}
+.contact-first-box .contact-label .contact-info-ttl{
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.contact-us-boxes .contact-second-box{
+  padding: 33px 0 38px 45px;
+  background-color: var(--white);
+}
+.contact-second-box .contact-second-label{
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+.contact-second-box .contact-second-address{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+.contact-second-box .contact-ph-no .phone{
+  cursor: pointer;
+  pointer-events: auto;
+}
+>>>>>>> Stashed changes
 }
 
 /*SP*/
@@ -1931,6 +2270,270 @@ Ipad*/
   .stories {
     padding: 7.188vw 0 7.344vw 0;
   }
+=======
+.pc{
+  display: none;
+}
+.sp{
+  display: block;
+}
+  /*---------------------About Us Page------------------------*/
+/*covid section*/
+.mobile{
+  display: none;
+}
+.covid-update-sec {
+  padding: 30px 0 60px;
+}
 
-  /*end of product page */
+.covid-update-sec .cmn-container {
+  flex-direction: column;
+}
+
+.covid-update-sec .covid-sec-lft {
+  margin-top: 0;
+  margin-left: 2px;
+  margin-bottom: 40px;
+}
+
+.covid-sec-lft span {
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  font-size: 12px;
+}
+
+.covid-sec-lft h3 {
+  margin-bottom: 24px;
+  font-size: 48px;
+}
+
+.covid-sec-lft p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.covid-update-sec .covid-sec-rgt img {
+  width: 100%;
+  height: 449.5px;
+  margin-left: 0;
+}
+
+/*our mission*/
+.mission-sec {
+  background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
+  padding:80px 0 155px;
+}
+
+.mission-sec .mission-txt {
+  margin-left:20px;
+}
+
+.mission-sec h3 {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 48px;
+}
+
+.mission-sec p {
+  line-height: 1.6;
+  color: var(--txt-black);
+  font-size: 16px;
+}
+
+/*middle-txt*/
+.middle-txt {
+  padding: 44px 0 39px;
+  border: 1px solid var(--bg-dark-green);
+}
+
+.middle-txt .mid-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.middle-txt .mid-para {
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+/*Hand Section*/
+
+.left-right .hand-txt-side button {
+  border: 1px solid var(--txt-black);
+}
+
+/*Pink Hand Section*/
+
+.about-left-txt .default-btn {
+  border: 1px solid var(--txt-black);
+}
+
+/*Instagram Section*/
+.ig-sec {
+  padding: 60px 0 36px;
+}
+
+.ig-sec .cmn-container {
+  text-align: center;
+}
+
+.ig-sec .ig-acc-logo {
+  margin-bottom: 40px;
+}
+
+.ig-acc-logo img {
+  margin-bottom: 9px;
+}
+
+.ig-photo-gallery li {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+.ig-photo-gallery li img{
+  width: 255px;
+  height: 255px;
+}
+.ig-photo-gallery li:nth-child(2n) {
+  margin-right: 0;
+}
+
+/*---------------------Feature Section-----------------------*/
+.feature-sec {
+  padding: 0 25px 80px;
+}
+
+.feature-sec .first-feature {
+  margin-bottom: 85px;
+}
+
+.feature-sec .cmn-container {
+  flex-direction: column;
+}
+
+.feature-sec .second-feature .feature-txt-side {
+  order: 2;
+}
+
+.feature-sec .second-feature .feature-img-side {
+  order: 1;
+}
+.feature-sec .feature-img-side {
+  width: 100%;
+  margin-right:0;
+}
+
+.feature-sec .feature-img-side img {
+  width: 100%;
+  height: 377px;
+  margin-right:0;
+  margin-bottom: 40px;
+}
+
+.feature-sec .feature-txt-side {
+  width: 100%;
+}
+
+.feature-sec .feature-txt-side .feature-txt-blk {
+  margin-top: -10px;
+}
+
+.feature-sec .feature-txt-side strong {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.feature-sec .feature-txt-side h3 {
+  line-height: 1.19;
+  margin-bottom: 28px;
+  color: var(--bg-dark-green);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.feature-sec .feature-txt-side p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.feature-sec .feature-txt-lft {
+  margin-left:0;
+}
+
+.feature-sec .feature-right-img {
+  margin-right: 0;
+  margin-left:0;
+}
+.second-feature .feature-txt-lft{
+  margin-left: 7px;
+}
+/*---------------------Contact Us Page------------------------*/
+.contact-us-section{
+  padding:42px 0 50px;
+}
+.contact-us-section .contact-us-intro{
+  margin-bottom: 58px;
+}
+.contact-us-section .contact-us-intro .contact-us-title{
+  font-size: 48px;
+  margin-bottom: 34px;
+}
+.contact-us-section .contact-us-intro p{
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list{
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list li{
+  margin-left: 13px;
+  margin-bottom: 10px;
+}
+.contact-us-intro .contact-us-list li::marker{
+  font-size: 13px;
+}
+.contact-us-boxes{
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-boxes .contact-box{
+  width: 516px;
+}
+.contact-us-boxes .contact-first-box{
+  padding: 35px 280px 13px 38px;
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+.contact-us-boxes .contact-first-box .contact-label{
+  margin-bottom: 31px;
+}
+.contact-us-boxes .contact-first-box .contact-label a{
+  text-decoration: underline;
+}
+.contact-first-box .contact-label .contact-info-ttl{
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.contact-us-boxes .contact-second-box{
+  padding: 33px 0 68px 45px;
+  background-color: var(--white);
+}
+.contact-second-box .contact-second-label{
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+.contact-second-box .contact-second-address{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+.contact-second-box .contact-ph-no .phone{
+  cursor: pointer;
+  pointer-events: auto;
+}
+>>>>>>> Stashed changes
 }

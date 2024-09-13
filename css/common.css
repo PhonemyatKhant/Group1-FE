@@ -101,7 +101,9 @@ input {
   font-size: 24px;
   font-weight: 700;
 }
-
+.sp{
+  display: none;
+}
 /*---------------------header------------------------*/
 .gnav {
   z-index: 1000;
@@ -419,6 +421,56 @@ Ipad*/
   .cmn-container {
     width: 89.5%;
   }
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
+
+/*---------------------Left and Right------------------------*/
+.left-right {
+  flex-direction: column;
+}
+
+.left-right .txt-side {
+  width: 100%;
+  padding: 100px 0 98px;
+}
+
+.left-right .txt-side .txt-side-blk {
+  margin-left: 81px;
+}
+
+.left-right .txt-left .txt-side-blk {
+  margin-left: 80px;
+}
+
+.txt-side-blk .txt-side-title {
+  line-height: 1.4;
+  margin-bottom: 22px;
+  font-size: 40px;
+}
+
+.txt-side-blk .txt-side-para {
+  line-height: 1.5;
+  margin-bottom: 56px;
+  font-size: 16px;
+}
+
+.txt-side-blk .default-btn {
+  padding: 9px 38px;
+  font-size: 14px;
+}
+
+.left-right .img-side {
+  width: 100%;
+}
+
+.left-right .img-side img {
+  width: 100%;
+}
+
 
 
   /* -------------------clean product----------------*/
@@ -600,6 +652,13 @@ Ipad*/
   .cmn-container {
     width: 94.3%;
   }
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
+
 
   /*---------------------header------------------------*/
 
@@ -663,4 +722,50 @@ Ipad*/
     font-size: 24px;
     letter-spacing: .6px;
   }
+
+/*---------------------Left and Right------------------------*/
+.left-right {
+  flex-direction: column;
+}
+
+.left-right .txt-side {
+  width: 100%;
+  padding: 95px 0 103px;
+}
+
+.left-right .txt-side .txt-side-blk {
+  margin-left: 81px;
+}
+
+.left-right .txt-left .txt-side-blk {
+  margin-left: 80px;
+}
+
+.txt-side-blk .txt-side-title {
+  line-height: 1.4;
+  margin-bottom: 22px;
+  font-size: 40px;
+}
+
+.txt-side-blk .txt-side-para {
+  line-height: 1.5;
+  margin-bottom: 56px;
+  font-size: 16px;
+}
+
+.txt-side-blk .default-btn {
+  padding: 9px 38px;
+  font-size: 14px;
+}
+
+.left-right .img-side {
+  width: 100%;
+}
+
+.left-right .img-side img {
+  width: 100%;
+  height: 493px;
+  background-size: cover;
+}
+
 }
