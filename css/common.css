@@ -101,9 +101,11 @@ input {
   font-size: 24px;
   font-weight: 700;
 }
-.sp{
+
+.sp {
   display: none;
 }
+
 /*---------------------header------------------------*/
 .gnav {
   z-index: 1000;
@@ -421,61 +423,63 @@ Ipad*/
   .cmn-container {
     width: 89.5%;
   }
-  .pc{
+
+  .pc {
     display: none;
   }
-  .sp{
+
+  .sp {
     display: block;
   }
 
-/*---------------------Left and Right------------------------*/
-.left-right {
-  flex-direction: column;
-}
+  /*---------------------Left and Right------------------------*/
+  .left-right {
+    flex-direction: column;
+  }
 
-.left-right .txt-side {
-  width: 100%;
-  padding: 100px 0 98px;
-}
+  .left-right .txt-side {
+    width: 100%;
+    padding: 13.021vw 0 12.76vw;
+  }
 
-.left-right .txt-side .txt-side-blk {
-  margin-left: 81px;
-}
+  .left-right .txt-side .txt-side-blk {
+    margin-left: 10.547vw;
+  }
 
-.left-right .txt-left .txt-side-blk {
-  margin-left: 80px;
-}
+  .left-right .txt-left .txt-side-blk {
+    margin-left: 10.417vw;
+  }
 
-.txt-side-blk .txt-side-title {
-  line-height: 1.4;
-  margin-bottom: 22px;
-  font-size: 40px;
-}
+  .txt-side-blk .txt-side-title {
+    line-height: 1.4;
+    margin-bottom: 2.865vw;
+    font-size: 5.208vw;
+  }
 
-.txt-side-blk .txt-side-para {
-  line-height: 1.5;
-  margin-bottom: 56px;
-  font-size: 16px;
-}
+  .txt-side-blk .txt-side-para {
+    line-height: 1.5;
+    margin-bottom: 7.292vw;
+    font-size: 2.083vw;
+  }
 
-.txt-side-blk .default-btn {
-  padding: 9px 38px;
-  font-size: 14px;
-}
+  .txt-side-blk .default-btn {
+    padding: 1.172vw 4.948vw;
+    font-size: 1.823vw;
+  }
 
-.left-right .img-side {
-  width: 100%;
-}
+  .left-right .img-side {
+    width: 100%;
+  }
 
-.left-right .img-side img {
-  width: 100%;
-}
+  .left-right .img-side img {
+    width: 100%;
+  }
 
 
-   /* -------------------clean product----------------*/
-   .clean-wrapper {
-    background-color: #35736A;
+  /* -------------------clean product----------------*/
+  .clean-wrapper {
     display: block;
+    background-color: #35736A;
   }
 
   .clean-artls {
@@ -483,25 +487,25 @@ Ipad*/
   }
 
   .clean-wrapper img {
-    max-height: 64.714vw;
     width: 100%;
+    max-height: 64.714vw;
 
   }
 
   .clean-artls h2 {
+    color: #fff;
     font-size: 5.209vw;
     font-weight: 700;
-    color: #fff;
   }
 
   .clean-artls p {
-    color: #fff;
     margin: 2.474vw 0vw 7.813vw 0vw;
+    color: #fff;
   }
 
   .clean-artls a {
-    border: 0.131vw solid #fff;
     padding: 0.521vw 5.209vw;
+    border: 0.131vw solid #fff;
     font-size: 1.822vw;
   }
 
@@ -533,15 +537,15 @@ Ipad*/
   }
 
   .joinsub input {
+    height: 67%;
     padding: 1.563vw 5.339vw;
     border: 0.131vw solid #FF8800;
-    height: 67%;
   }
 
   .joinsub button {
-    padding: 0vw 4.036vw;
     display: inline-block;
     height: 67%;
+    padding: 0vw 4.036vw;
   }
 
   .footer-wrapper {
@@ -550,8 +554,8 @@ Ipad*/
   }
 
   .footer-list-wrapper {
-    gap: 14.807vw;
     margin-left: 4.557vw;
+    gap: 14.807vw;
   }
 
   .footer-logo-wrapper input {
@@ -559,9 +563,9 @@ Ipad*/
   }
 
   .footer-logo-wrapper button {
-    font-size: 1.822vw;
-    border: 0.131vw solid #fff;
     padding: 1.563vw 3.906vw;
+    border: 0.131vw solid #fff;
+    font-size: 1.822vw;
   }
 
   .footer-list-wrapper ul {
@@ -594,11 +598,11 @@ Ipad*/
   }
 
   .icon {
-    color: #fff;
     display: flex;
-    gap: 2.995vw;
-    font-size: 3.515vw;
     margin: 3.51vw 0vw 0vw 0vw;
+    color: #fff;
+    font-size: 3.515vw;
+    gap: 2.995vw;
   }
 
   .copy-wrapper {
@@ -616,10 +620,12 @@ Ipad*/
   .cmn-container {
     width: 94.3%;
   }
-  .pc{
+
+  .pc {
     display: none;
   }
-  .sp{
+
+  .sp {
     display: block;
   }
 
@@ -629,7 +635,7 @@ Ipad*/
   .gnav {
 
     position: relative;
-    padding: 28px 0px 22px 0px;
+    padding: 4.375vw 0vw 3.438vw 0vw;
     text-align: left;
   }
 
@@ -644,9 +650,9 @@ Ipad*/
 
   .gnav .logo-img {
     display: inline-block;
-    width: 87px;
+    width: 13.594vw;
     margin: 0;
-    padding-bottom: 0px;
+    padding-bottom: 0vw;
   }
 
   .nav-links {
@@ -659,10 +665,10 @@ Ipad*/
     z-index: 100;
     width: 100%;
     height: 0;
-    padding: 94px 0 295px 41px;
+    padding: 14.688vw 0 46.094vw 6.406vw;
     background-color: var(--white);
     transition: all 0.3s ease;
-    gap: 41px;
+    gap: 6.406vw;
   }
 
   .nav-links.show {
@@ -671,67 +677,68 @@ Ipad*/
   }
 
   .nav-links li {
-    margin-right: 0px;
-    padding-bottom: 9px;
+    margin-right: 0vw;
+    padding-bottom: 1.406vw;
 
   }
 
   .nav-links li:nth-of-type(3) {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0vw;
+    margin-left: 0vw;
   }
 
   .nav-links li a {
     color: var(--bg-dark-green);
-    font-size: 24px;
-    letter-spacing: .6px;
+    font-size: 3.75vw;
+    letter-spacing: 0.094vw;
   }
 
-/*---------------------Left and Right------------------------*/
-.left-right {
-  flex-direction: column;
-}
+  /*---------------------Left and Right------------------------*/
+  .left-right {
+    flex-direction: column;
+  }
 
-.left-right .txt-side {
-  width: 100%;
-  padding: 95px 0 103px;
-}
+  .left-right .txt-side {
+    width: 100%;
+    padding: 14.844vw 0 16.094vw;
+  }
 
-.left-right .txt-side .txt-side-blk {
-  margin-left: 81px;
-}
+  .left-right .txt-side .txt-side-blk {
+    margin-left: 12.656vw;
+  }
 
-.left-right .txt-left .txt-side-blk {
-  margin-left: 80px;
-}
+  .left-right .txt-left .txt-side-blk {
+    margin-left: 12.5vw;
+  }
 
-.txt-side-blk .txt-side-title {
-  line-height: 1.4;
-  margin-bottom: 22px;
-  font-size: 40px;
-}
+  .txt-side-blk .txt-side-title {
+    line-height: 1.4;
+    margin-bottom: 3.438vw;
+    font-size: 6.25vw;
+  }
 
-.txt-side-blk .txt-side-para {
-  line-height: 1.5;
-  margin-bottom: 58px;
-  font-size: 16px;
-}
+  .txt-side-blk .txt-side-para {
+    line-height: 1.5;
+    margin-bottom: 9.063vw;
+    font-size: 2.5vw;
+  }
 
-.txt-side-blk .default-btn {
-  padding: 8px 38px;
-  font-size: 14px;
-}
+  .txt-side-blk .default-btn {
+    padding: 1.25vw 5.938vw;
+    font-size: 2.188vw;
+  }
 
-.left-right .img-side {
-  width: 100%;
-}
+  .left-right .img-side {
+    width: 100%;
+  }
 
-.left-right .img-side img {
-  width: 100%;
-  height: 493px;
-  background-size: cover;
-}
- /*--------------------------------Category-----------------------------------*/
+  .left-right .img-side img {
+    width: 100%;
+    height: 77.031vw;
+    background-size: cover;
+  }
+
+  /*--------------------------------Category-----------------------------------*/
   /*----------------footer--------------------*/
   .join-wrapper {
     display: block;
@@ -768,8 +775,8 @@ Ipad*/
   }
 
   .footer-list-wrapper {
-    gap: 85px;
     padding-left: 3.125vw;
+    gap: 13.281vw;
   }
 
   .footer-list-wrapper ul {

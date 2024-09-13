@@ -680,15 +680,18 @@ SP => Screen Size - 640px*/
 
 /*---------------------About Us Page------------------------*/
 /*covid section*/
-.about-bdy .sp-mobile{
+.about-bdy .sp-mobile {
   display: none;
 }
-.about-bdy .sp{
+
+.about-bdy .sp {
   display: none;
 }
-.about-bdy .pc{
+
+.about-bdy .pc {
   display: block;
 }
+
 .covid-update-sec {
   padding: 50px 0 80px;
 }
@@ -914,6 +917,7 @@ SP => Screen Size - 640px*/
 /* ---------------------category--------------------- */
 .product-category {
   display: flex;
+  column-gap: 37px;
 }
 
 .product-wrapper {
@@ -995,7 +999,7 @@ SP => Screen Size - 640px*/
 }
 
 .category-list {
-  width: 20%;
+  flex-basis: 30%;
   padding: 20px 0px;
 }
 
@@ -1033,7 +1037,7 @@ SP => Screen Size - 640px*/
 }
 
 .acen-card-wrapper {
-  margin-left: 19px;
+  /*margin-left: 19px;*/
 }
 
 .thr-acen,
@@ -1111,90 +1115,113 @@ SP => Screen Size - 640px*/
   font-weight: 700;
   text-decoration: underline;
 }
+
 /*end of category page */
 
 /*---------------------Contact Us Page------------------------*/
-.contact-us-section{
-  padding:53px 0 50px;
+.contact-us-section {
+  padding: 53px 0 50px;
   background-color: #F7F7F7;
 }
-.contact-us-section .contact-us-intro{
+
+.contact-us-section .contact-us-intro {
   margin-bottom: 33px;
 }
-.contact-us-section .contact-us-intro .contact-us-title{
+
+.contact-us-section .contact-us-intro .contact-us-title {
   margin-bottom: 30px;
-  color:var(--txt-black);
+  color: var(--txt-black);
   font-size: 48px;
   font-weight: 700;
 }
-.contact-us-section .contact-us-intro p{
+
+.contact-us-section .contact-us-intro p {
   line-height: 1.6;
   margin-bottom: 25px;
   color: var(--txt-black);
   font-size: 16px;
 }
-.contact-us-section .contact-us-intro .contact-us-list{
+
+.contact-us-section .contact-us-intro .contact-us-list {
   margin-bottom: 25px;
 }
-.contact-us-section .contact-us-intro .contact-us-list li{
+
+.contact-us-section .contact-us-intro .contact-us-list li {
   margin-bottom: 10px;
   margin-left: 13px;
   color: var(--bg-dark-green);
   font-weight: 700;
   list-style-type: disc;
 }
-.contact-us-intro .contact-us-list li::marker{
+
+.contact-us-intro .contact-us-list li::marker {
   font-size: 13px;
   vertical-align: middle;
 }
-.contact-us-section .contact-us-intro .contact-us-list span{
+
+.contact-us-section .contact-us-intro .contact-us-list span {
   color: var(--orange);
 }
-.contact-us-boxes{
+
+.contact-us-boxes {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
-.contact-us-boxes .contact-box{
+
+.contact-us-boxes .contact-box {
   width: 516px;
 }
-.contact-us-boxes .contact-first-box{
+
+.contact-us-boxes .contact-first-box {
   margin-right: 40px;
   padding: 37px 280px 13px 39px;
   background-color: var(--white);
 }
-.contact-us-boxes .contact-first-box .contact-label{
+
+.contact-us-boxes .contact-first-box .contact-label {
   margin-bottom: 31px;
 }
-.contact-us-boxes .contact-first-box .contact-label a{
+
+.contact-us-boxes .contact-first-box .contact-label a {
   text-decoration: underline;
 }
-.contact-first-box .contact-label .contact-info-ttl{
+
+.contact-first-box .contact-label .contact-info-ttl {
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 700;
 }
-.contact-us-boxes .contact-second-box{
+
+.contact-us-boxes .contact-second-box {
   padding: 37px 0 38px 47px;
   background-color: var(--white);
 }
-.contact-second-box .contact-second-label{
+
+.contact-second-box .contact-second-label {
   margin-bottom: 29px;
   font-weight: 700;
 }
-.contact-second-box .contact-second-address{
+
+.contact-second-box .contact-second-address {
   line-height: 1.5;
   margin-bottom: 28px;
   font-size: 16px;
 }
-.contact-second-box .contact-ph-no .phone{
+
+.contact-second-box .contact-ph-no .phone {
   cursor: none;
   pointer-events: none;
 }
+
 /*Media Query
 Ipad*/
 @media screen and (min-width:768px) and (max-width:1180px) {
 
   /*---------------------home-mv------------------------*/
+  #home-mv {
+    background: url(/img/top/img_home_bg_md.png) center/cover no-repeat;
+  }
+
   .home-mv {
     padding: 5.208vw 0 33.594vw 0;
   }
@@ -1202,6 +1229,7 @@ Ipad*/
   .mv-txt-blk {
     margin-left: 0;
   }
+
   /*---------------------most-popular------------------------*/
 
   .mp {
@@ -1234,8 +1262,9 @@ Ipad*/
   .cp-banner .txt-left .txt-side-blk {
     margin-left: 10.417vw;
   }
+
   .cp-banner .txt-left .txt-side-blk {
-    max-width: 429px;
+    max-width: 55.859vw;
   }
 
   .cp-banner .txt-left .txt-side-blk button {
@@ -1246,8 +1275,9 @@ Ipad*/
     width: 100%;
     height: 64.453vw;
   }
-  .cp-banner .img-side img{
-   height: 100%;
+
+  .cp-banner .img-side img {
+    height: 100%;
   }
 
   /*---------------------top-recommended------------------------*/
@@ -1283,12 +1313,15 @@ Ipad*/
   .about-right-txt .txt-side .txt-side-blk {
     margin-left: 10.417vw;
   }
-  .about-right-txt .txt-side .txt-side-blk h3{
-    max-width: 397px;
+
+  .about-right-txt .txt-side .txt-side-blk h3 {
+    max-width: 51.693vw;
   }
-  .nip-txt{
-    max-width: 582px;
+
+  .nip-txt {
+    max-width: 75.781vw;
   }
+
   .about-right-txt .txt-side .txt-side-blk button {
     padding: 1.042vw 5.208vw;
   }
@@ -1297,6 +1330,7 @@ Ipad*/
     width: 100%;
     height: 64.453vw;
   }
+
   .about-right-txt .img-side img {
     width: 100%;
     height: 100%;
@@ -1368,6 +1402,7 @@ Ipad*/
     margin-right: 9.115vw;
     max-width: 8.854vw;
   }
+
   /*---------------------products main visual------------------------*/
   .p-mv {
     padding: 6.51vw 0 1.30vw 0;
@@ -1461,11 +1496,13 @@ Ipad*/
   }
 
   .product-right-txt .txt-side .txt-side-blk h3 {
-    max-width: 397px;
+    max-width: 51.693vw;
   }
+
   .product-right-txt .txt-side .txt-side-blk .txt-side-para br {
     display: inline-block;
   }
+
   .product-right-txt .txt-side .txt-side-blk button {
     padding: 1.042vw 5.208vw;
   }
@@ -1474,7 +1511,8 @@ Ipad*/
     width: 100%;
     height: 64.453vw;
   }
-  .product-right-txt .img-side img{
+
+  .product-right-txt .img-side img {
     height: 100%;
   }
 
@@ -1485,8 +1523,8 @@ Ipad*/
 
   /*end of products page */
 
-   /* ---------------------category--------------------- */
-   .product-category {
+  /* ---------------------category--------------------- */
+  .product-category {
     display: block;
   }
 
@@ -1497,11 +1535,11 @@ Ipad*/
   /*---------slider------*/
 
   #slider {
-    height: 443px;
+    height: 57.682vw;
   }
 
   .slider-wrapper {
-    height: 443px;
+    height: 57.682vw;
   }
 
   .slider-txt {
@@ -1580,7 +1618,7 @@ Ipad*/
 
   .thr-acen {
     margin-top: -0.651vw;
-    padding-bottom: 0px;
+    padding-bottom: 0vw;
     row-gap: 5.208vw;
     column-gap: 4.948vw;
     border-bottom: none;
@@ -1651,20 +1689,23 @@ Ipad*/
     font-weight: 700;
     text-decoration: underline;
   }
+
   /*---------------------About Us Page------------------------*/
-  .about-bdy .sp-mobile{
+  .about-bdy .sp-mobile {
     display: none;
   }
-  .about-bdy .sp{
+
+  .about-bdy .sp {
     display: block;
   }
-  .about-bdy .pc{
+
+  .about-bdy .pc {
     display: none;
   }
-  
+
   /*covid section*/
   .covid-update-sec {
-    padding: 20px 0 50px;
+    padding: 2.604vw 0 6.51vw;
   }
 
   .covid-update-sec .cmn-container {
@@ -1673,35 +1714,35 @@ Ipad*/
 
   .covid-update-sec .covid-sec-lft {
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 5.208vw;
     margin-left: 0;
   }
 
   .covid-sec-lft span {
-    margin-bottom: 15px;
-    padding: 7px 15px;
-    font-size: 12px;
+    margin-bottom: 1.953vw;
+    padding: 0.911vw 1.953vw;
+    font-size: 1.563vw;
   }
 
   .covid-sec-lft h3 {
-    margin-bottom: 22px;
-    font-size: 48px;
+    margin-bottom: 2.865vw;
+    font-size: 6.25vw;
   }
 
   .covid-sec-lft p {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 2.083vw;
   }
 
   .covid-update-sec .covid-sec-rgt img {
     width: 100%;
-    height: 513.43px;
+    height: 66.853vw;
     margin-left: 0;
   }
 
   /*our mission*/
   .mission-sec {
-    padding: 73px 0 140px;
+    padding: 9.505vw 0 18.229vw;
     background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
   }
 
@@ -1711,46 +1752,46 @@ Ipad*/
 
   .mission-sec h3 {
     line-height: 1.15;
-    margin-bottom: 20px;
-    font-size: 48px;
+    margin-bottom: 2.604vw;
+    font-size: 6.25vw;
   }
 
   .mission-sec p {
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 2.083vw;
   }
 
   /*middle-txt*/
   .middle-txt {
-    padding: 43px 0 39px;
-    border: 1px solid var(--bg-dark-green);
+    padding: 5.599vw 0 5.078vw;
+    border: 0.13vw solid var(--bg-dark-green);
   }
 
   .middle-txt .mid-title {
-    margin-bottom: 10px;
-    font-size: 28px;
+    margin-bottom: 1.302vw;
+    font-size: 3.646vw;
   }
 
   .middle-txt .mid-para {
     line-height: 1.1;
-    font-size: 16px;
+    font-size: 2.083vw;
   }
 
   /*Hand Section*/
 
   .left-right .hand-txt-side button {
-    border: 1px solid var(--txt-black);
+    border: 0.13vw solid var(--txt-black);
   }
 
   /*Pink Hand Section*/
 
   .about-left-txt .default-btn {
-    border: 1px solid var(--txt-black);
+    border: 0.13vw solid var(--txt-black);
   }
 
   /*Instagram Section*/
   .ig-sec {
-    padding: 50px 0 0;
+    padding: 6.51vw 0 0;
   }
 
   .ig-sec .cmn-container {
@@ -1758,21 +1799,21 @@ Ipad*/
   }
 
   .ig-sec .ig-acc-logo {
-    margin-bottom: 40px;
+    margin-bottom: 5.208vw;
   }
 
   .ig-acc-logo img {
-    margin-bottom: 9px;
+    margin-bottom: 1.172vw;
   }
 
   .ig-photo-gallery li {
-    margin-right: 57px;
-    margin-bottom: 60px;
+    margin-right: 7.422vw;
+    margin-bottom: 7.813vw;
   }
 
   .ig-photo-gallery li img {
-    width: 314px;
-    height: 255px;
+    width: 40.885vw;
+    height: 33.203vw;
   }
 
   .ig-photo-gallery li:nth-child(2n) {
@@ -1781,11 +1822,11 @@ Ipad*/
 
   /*---------------------Feature Section-----------------------*/
   .feature-sec {
-    padding-bottom: 80px;
+    padding-bottom: 10.417vw;
   }
 
   .feature-sec .first-feature {
-    margin-bottom: 85px;
+    margin-bottom: 11.068vw;
   }
 
   .feature-sec .cmn-container {
@@ -1807,9 +1848,9 @@ Ipad*/
 
   .feature-sec .feature-img-side img {
     width: 100%;
-    height: 463px;
+    height: 60.286vw;
     margin-right: 0;
-    margin-bottom: 40px;
+    margin-bottom: 5.208vw;
   }
 
   .feature-sec .feature-txt-side {
@@ -1817,28 +1858,28 @@ Ipad*/
   }
 
   .feature-sec .feature-txt-side .feature-txt-blk {
-    margin-top: -10px;
+    margin-top: -1.302vw;
   }
 
   .feature-sec .feature-txt-side strong {
     display: inline-block;
-    margin-bottom: 22px;
-    font-size: 14px;
+    margin-bottom: 2.865vw;
+    font-size: 1.823vw;
     font-weight: 400;
     text-transform: uppercase;
   }
 
   .feature-sec .feature-txt-side h3 {
     line-height: 1.19;
-    margin-bottom: 28px;
+    margin-bottom: 3.646vw;
     color: var(--bg-dark-green);
-    font-size: 28px;
+    font-size: 3.646vw;
     font-weight: 700;
   }
 
   .feature-sec .feature-txt-side p {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 2.083vw;
   }
 
   .feature-sec .feature-txt-lft {
@@ -1851,39 +1892,39 @@ Ipad*/
   }
 
   .second-feature .feature-txt-lft {
-    margin-left: 7px;
+    margin-left: 0.911vw;
   }
 
   /*---------------------Contact Us Page------------------------*/
   .contact-us-section {
-    padding: 53px 0 50px;
+    padding: 6.901vw 0 6.51vw;
   }
 
   .contact-us-section .contact-us-intro {
-    margin-bottom: 45px;
+    margin-bottom: 5.859vw;
   }
 
   .contact-us-section .contact-us-intro .contact-us-title {
-    margin-bottom: 30px;
-    font-size: 48px;
+    margin-bottom: 3.906vw;
+    font-size: 6.25vw;
   }
 
   .contact-us-section .contact-us-intro p {
-    margin-bottom: 25px;
-    font-size: 16px;
+    margin-bottom: 3.255vw;
+    font-size: 2.083vw;
   }
 
   .contact-us-section .contact-us-intro .contact-us-list {
-    margin-bottom: 25px;
+    margin-bottom: 3.255vw;
   }
 
   .contact-us-section .contact-us-intro .contact-us-list li {
-    margin-bottom: 10px;
-    margin-left: 13px;
+    margin-bottom: 1.302vw;
+    margin-left: 1.693vw;
   }
 
   .contact-us-intro .contact-us-list li::marker {
-    font-size: 13px;
+    font-size: 1.693vw;
   }
 
   .contact-us-boxes {
@@ -1892,17 +1933,17 @@ Ipad*/
   }
 
   .contact-us-boxes .contact-box {
-    width: 512px;
+    width: 66.667vw;
   }
 
   .contact-us-boxes .contact-first-box {
     margin-right: 0;
-    margin-bottom: 40px;
-    padding: 35px 280px 13px 38px;
+    margin-bottom: 5.208vw;
+    padding: 4.557vw 36.458vw 1.693vw 4.948vw;
   }
 
   .contact-us-boxes .contact-first-box .contact-label {
-    margin-bottom: 31px;
+    margin-bottom: 4.036vw;
   }
 
   .contact-us-boxes .contact-first-box .contact-label a {
@@ -1910,25 +1951,25 @@ Ipad*/
   }
 
   .contact-first-box .contact-label .contact-info-ttl {
-    margin-bottom: 8px;
-    font-size: 16px;
+    margin-bottom: 1.042vw;
+    font-size: 2.083vw;
     font-weight: 700;
   }
 
   .contact-us-boxes .contact-second-box {
-    padding: 33px 0 38px 45px;
+    padding: 4.297vw 0 4.948vw 5.859vw;
     background-color: var(--white);
   }
 
   .contact-second-box .contact-second-label {
-    margin-bottom: 29px;
+    margin-bottom: 3.776vw;
     font-weight: 700;
   }
 
   .contact-second-box .contact-second-address {
     line-height: 1.5;
-    margin-bottom: 28px;
-    font-size: 16px;
+    margin-bottom: 3.646vw;
+    font-size: 2.083vw;
   }
 
   .contact-second-box .contact-ph-no .phone {
@@ -1951,8 +1992,12 @@ Ipad*/
     text-align: center;
   }
 
-   /*---------------------home-mv------------------------*/
-   .home-mv {
+  /*---------------------home-mv------------------------*/
+  #home-mv {
+    background: url(/img/top/img_home_bg_sp.png) center/cover no-repeat;
+  }
+
+  .home-mv {
 
     padding: 77.188vw 0 9.375vw 0;
   }
@@ -1961,6 +2006,7 @@ Ipad*/
     margin-left: 9.688vw;
     max-width: 70.625vw;
   }
+
   .home-mv p {
     padding-bottom: 3.125vw;
   }
@@ -1997,8 +2043,9 @@ Ipad*/
   .cp-banner .txt-left .txt-side-blk {
     margin-left: 12.5vw;
   }
+
   .cp-banner .txt-left .txt-side-blk {
-    max-width: 429px;
+    max-width: 67.031vw;
   }
 
   .cp-banner .txt-left .txt-side-blk button {
@@ -2009,9 +2056,10 @@ Ipad*/
     width: 100%;
     height: 77.344vw;
   }
-  .cp-banner .img-side img{
+
+  .cp-banner .img-side img {
     height: 100%;
-   }
+  }
 
   /*---------------------top-recommended------------------------*/
   .tr {
@@ -2046,12 +2094,15 @@ Ipad*/
   .about-right-txt .txt-side .txt-side-blk {
     margin-left: 12.5vw;
   }
-  .about-right-txt .txt-side .txt-side-blk h3{
-    max-width: 397px;
+
+  .about-right-txt .txt-side .txt-side-blk h3 {
+    max-width: 62.031vw;
   }
-  .about-right-txt .txt-side .txt-side-blk p{
-    max-width: 427px;
+
+  .about-right-txt .txt-side .txt-side-blk p {
+    max-width: 66.719vw;
   }
+
   .about-right-txt .txt-side .txt-side-blk button {
     padding: 1.25vw 6.25vw;
   }
@@ -2060,6 +2111,7 @@ Ipad*/
     width: 100%;
     height: 77.344vw;
   }
+
   .about-right-txt .img-side img {
     width: 100%;
     height: 100%;
@@ -2138,6 +2190,7 @@ Ipad*/
     margin-right: 0.313vw;
     max-width: 10.625vw;
   }
+
   /*---------------------products main visual------------------------*/
   .p-mv {
     padding: 4.688vw 0 3.906vw 0;
@@ -2255,156 +2308,160 @@ Ipad*/
   .sp {
     display: block;
   }
-/*-----------------------Category-----------------------*/
 
-.product-wrapper {
-  padding: 6.406vw 0vw 7.656vw 0vw;
-}
+  /*-----------------------Category-----------------------*/
 
-#slider {
-  height: 445px;
-}
+  .product-wrapper {
+    padding: 6.406vw 0vw 7.656vw 0vw;
+  }
 
-.slider-wrapper {
-  height: 445px;
-}
+  #slider {
+    height: 69.531vw;
+  }
 
-.slider-txt {
-  top: 73.997px;
-  left: 6.339vw;
-}
+  .slider-wrapper {
+    height: 69.531vw;
+  }
 
-.product-nav {
-  margin-bottom: 6.563vw;
-  padding: 0vw 7.344vw 0vw 7.188vw;
-  gap: 1.875vw;
-}
+  .slider-txt {
+    top: 11.562vw;
+    left: 6.339vw;
+  }
 
-.product-category {
-  display: block;
-}
+  .product-nav {
+    margin-bottom: 6.563vw;
+    padding: 0vw 7.344vw 0vw 7.188vw;
+    gap: 1.875vw;
+  }
 
-.category-list {
-  display: flex;
-  width: 100%;
-  height: 54.531vw;
-  margin-left: 9.151vw;
-  padding: 1vw 0vw;
-  gap: 14.328vw;
-}
+  .product-category {
+    display: block;
+  }
 
-.acen-card-wrapper {
-  display: block;
-}
+  .category-list {
+    display: flex;
+    width: 100%;
+    height: 54.531vw;
+    margin-left: 9.151vw;
+    padding: 1vw 0vw;
+    gap: 14.328vw;
+  }
 
-.acen-img img {
-  height: 90.313vw;
-}
+  .acen-card-wrapper {
+    display: block;
+  }
 
-.sec-acen {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 3.125vw;
-}
+  .acen-img img {
+    height: 90.313vw;
+  }
 
-.thr-acen {
-  display: grid;
-  margin-top: 1.719vw;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 1.406vw;
-}
+  .sec-acen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.125vw;
+  }
 
-.fou-acen {
-  display: grid;
-  margin-top: 6.094vw;
-  padding-bottom: 0vw;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 3.125vw;
-}
+  .thr-acen {
+    display: grid;
+    margin-top: 1.719vw;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.406vw;
+  }
 
-.clean-wrapper {
-  display: block;
-}
+  .fou-acen {
+    display: grid;
+    margin-top: 6.094vw;
+    padding-bottom: 0vw;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.125vw;
+  }
 
-.clean-artls {
-  line-height: 1.4;
-  padding: 14.375vw 12.188vw 15.531vw 9.375vw;
-}
+  .clean-wrapper {
+    display: block;
+  }
 
-.clean-artls p {
-  margin: 3.906vw 0vw 9.688vw 0vw;
-}
+  .clean-artls {
+    line-height: 1.4;
+    padding: 14.375vw 12.188vw 15.531vw 9.375vw;
+  }
 
-.clean-artls a {
-  padding: 1.094vw 6.25vw;
-}
+  .clean-artls p {
+    margin: 3.906vw 0vw 9.688vw 0vw;
+  }
 
-.clean-wrapper img {
-  width: 100%;
-  height: 77.344vw;
-}
+  .clean-artls a {
+    padding: 1.094vw 6.25vw;
+  }
 
-/*------------cream--------------*/
+  .clean-wrapper img {
+    width: 100%;
+    height: 77.344vw;
+  }
 
-.cream-wrapper {
-  padding-bottom: 1.875vw;
-}
+  /*------------cream--------------*/
 
-.cream-header h3 {
-  margin-bottom: 3.125vw;
-  margin-left: 0vw;
-}
+  .cream-wrapper {
+    padding-bottom: 1.875vw;
+  }
 
-.cream-wrapper {
-  margin-top: 2.031vw;
-}
+  .cream-header h3 {
+    margin-bottom: 3.125vw;
+    margin-left: 0vw;
+  }
 
-.cream-header p {
-  margin-bottom: 6.406vw;
-  padding-left: 0vw;
-}
+  .cream-wrapper {
+    margin-top: 2.031vw;
+  }
 
-.cream-card {
-  width: 100%;
-  margin-bottom: 4.844vw;
-}
+  .cream-header p {
+    margin-bottom: 6.406vw;
+    padding-left: 0vw;
+  }
 
-.cream-card-wrapper {
-  display: block;
-  padding: 0vw 27.656vw 0vw 27.656vw;
-}
+  .cream-card {
+    width: 100%;
+    margin-bottom: 4.844vw;
+  }
 
-.cream-card img {
-  margin-bottom: 3.438vw;
-}
+  .cream-card-wrapper {
+    display: block;
+    padding: 0vw 27.656vw 0vw 27.656vw;
+  }
 
-.cream-ttl {
-  text-align: center;
-}
+  .cream-card img {
+    margin-bottom: 3.438vw;
+  }
 
-.cream-txt {
-  margin: 2.188vw 0vw 1.563vw 0vw;
-  text-align: center;
-}
+  .cream-ttl {
+    text-align: center;
+  }
 
-.cream-card a {
-  padding: 0% 36%;
-  font-size: 2.188vw;
-}
+  .cream-txt {
+    margin: 2.188vw 0vw 1.563vw 0vw;
+    text-align: center;
+  }
+
+  .cream-card a {
+    padding: 0% 36%;
+    font-size: 2.188vw;
+  }
+
   /*---------------------About Us Page------------------------*/
   /*covid section*/
-  .about-bdy .sp-mobile{
-    display:block;
+  .about-bdy .sp-mobile {
+    display: block;
   }
-  .about-bdy .sp{
+
+  .about-bdy .sp {
     display: none;
   }
-  .about-bdy .pc{
+
+  .about-bdy .pc {
     display: none;
   }
 
   .covid-update-sec {
-    padding: 30px 0 60px;
+    padding: 4.688vw 0 9.375vw;
   }
 
   .covid-update-sec .cmn-container {
@@ -2413,86 +2470,86 @@ Ipad*/
 
   .covid-update-sec .covid-sec-lft {
     margin-top: 0;
-    margin-bottom: 40px;
-    margin-left: 2px;
+    margin-bottom: 6.25vw;
+    margin-left: 0.313vw;
   }
 
   .covid-sec-lft span {
-    margin-bottom: 15px;
-    padding: 7px 15px;
-    font-size: 12px;
+    margin-bottom: 2.344vw;
+    padding: 1.094vw 2.344vw;
+    font-size: 1.875vw;
   }
 
   .covid-sec-lft h3 {
-    margin-bottom: 24px;
-    font-size: 48px;
+    margin-bottom: 3.75vw;
+    font-size: 7.5vw;
   }
 
   .covid-sec-lft p {
     line-height: 1.5;
-    margin-bottom: -10px;
-    font-size: 16px;
+    margin-bottom: -1.563vw;
+    font-size: 2.5vw;
   }
 
   .covid-update-sec .covid-sec-rgt img {
     width: 100%;
-    height: 449.5px;
+    height: 70.234vw;
     margin-left: 0;
   }
 
   /*our mission*/
   .mission-sec {
-    padding: 80px 0 155px;
+    padding: 12.5vw 0 24.219vw;
     background: url("../img/about-us/mission_cover.jpg") no-repeat center/cover;
   }
 
   .mission-sec .mission-txt {
-    margin-left: 20px;
+    margin-left: 3.125vw;
   }
 
   .mission-sec h3 {
     line-height: 1.15;
-    margin-bottom: 20px;
-    font-size: 48px;
+    margin-bottom: 3.125vw;
+    font-size: 7.5vw;
   }
 
   .mission-sec p {
     line-height: 1.6;
     color: var(--txt-black);
-    font-size: 16px;
+    font-size: 2.5vw;
   }
 
   /*middle-txt*/
   .middle-txt {
-    padding: 44px 0 39px;
-    border: 1px solid var(--bg-dark-green);
+    padding: 6.875vw 0 6.094vw;
+    border: 0.156vw solid var(--bg-dark-green);
   }
 
   .middle-txt .mid-title {
-    margin-bottom: 10px;
-    font-size: 28px;
+    margin-bottom: 1.563vw;
+    font-size: 4.375vw;
   }
 
   .middle-txt .mid-para {
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 2.5vw;
   }
 
   /*Hand Section*/
 
   .left-right .hand-txt-side button {
-    border: 1px solid var(--txt-black);
+    border: 0.156vw solid var(--txt-black);
   }
 
   /*Pink Hand Section*/
 
   .about-left-txt .default-btn {
-    border: 1px solid var(--txt-black);
+    border: 0.156vw solid var(--txt-black);
   }
 
   /*Instagram Section*/
   .ig-sec {
-    padding: 60px 0 36px;
+    padding: 9.375vw 0 5.625vw;
   }
 
   .ig-sec .cmn-container {
@@ -2500,21 +2557,21 @@ Ipad*/
   }
 
   .ig-sec .ig-acc-logo {
-    margin-bottom: 40px;
+    margin-bottom: 6.25vw;
   }
 
   .ig-acc-logo img {
-    margin-bottom: 9px;
+    margin-bottom: 1.406vw;
   }
 
   .ig-photo-gallery li {
-    margin-right: 24px;
-    margin-bottom: 24px;
+    margin-right: 3.75vw;
+    margin-bottom: 3.75vw;
   }
 
   .ig-photo-gallery li img {
-    width: 255px;
-    height: 255px;
+    width: 39.844vw;
+    height: 39.844vw;
   }
 
   .ig-photo-gallery li:nth-child(2n) {
@@ -2522,141 +2579,160 @@ Ipad*/
   }
 
   /*---------------------Feature Section-----------------------*/
-.feature-sec {
-  padding: 0 25px 80px;
-}
+  .feature-sec {
+    padding: 0 3.906vw 12.5vw;
+  }
 
-.feature-sec .first-feature {
-  margin-bottom: 80px;
-}
+  .feature-sec .first-feature {
+    margin-bottom: 12.5vw;
+  }
 
-.feature-sec .cmn-container {
-  flex-direction: column;
-}
+  .feature-sec .cmn-container {
+    flex-direction: column;
+  }
 
-.feature-sec .second-feature .feature-txt-side {
-  order: 2;
-}
+  .feature-sec .second-feature .feature-txt-side {
+    order: 2;
+  }
 
-.feature-sec .second-feature .feature-img-side {
-  order: 1;
-}
-.feature-sec .feature-img-side {
-  width: 100%;
-  margin-right:0;
-}
+  .feature-sec .second-feature .feature-img-side {
+    order: 1;
+  }
 
-.feature-sec .feature-img-side img {
-  width: 100%;
-  height: 379px;
-  margin-right:0;
-  margin-bottom: 40px;
-}
+  .feature-sec .feature-img-side {
+    width: 100%;
+    margin-right: 0;
+  }
 
-.feature-sec .feature-txt-side {
-  width: 100%;
-}
+  .feature-sec .feature-img-side img {
+    width: 100%;
+    height: 59.219vw;
+    margin-right: 0;
+    margin-bottom: 6.25vw;
+  }
 
-.feature-sec .feature-txt-side .feature-txt-blk {
-  margin-top: -10px;
-}
+  .feature-sec .feature-txt-side {
+    width: 100%;
+  }
 
-.feature-sec .feature-txt-side strong {
-  display: inline-block;
-  margin-bottom: 22px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  .feature-sec .feature-txt-side .feature-txt-blk {
+    margin-top: -1.563vw;
+  }
 
-.feature-sec .feature-txt-side h3 {
-  line-height: 1.19;
-  margin-bottom: 28px;
-  color: var(--bg-dark-green);
-  font-size: 28px;
-  font-weight: 700;
-}
+  .feature-sec .feature-txt-side strong {
+    display: inline-block;
+    margin-bottom: 3.438vw;
+    font-size: 2.188vw;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 
-.feature-sec .feature-txt-side p {
-  line-height: 1.5;
-  font-size: 16px;
-}
+  .feature-sec .feature-txt-side h3 {
+    line-height: 1.19;
+    margin-bottom: 4.375vw;
+    color: var(--bg-dark-green);
+    font-size: 4.375vw;
+    font-weight: 700;
+  }
 
-.feature-sec .feature-txt-lft {
-  margin-left:0;
-}
+  .feature-sec .feature-txt-side p {
+    line-height: 1.5;
+    font-size: 2.5vw;
+  }
 
-.feature-sec .feature-right-img {
-  margin-right: 0;
-  margin-left:0;
-}
-.second-feature .feature-txt-lft{
-  margin-left: 7px;
-}
-/*---------------------Contact Us Page------------------------*/
-.contact-us-section{
-  padding:42px 0 50px;
-}
-.contact-us-section .contact-us-intro{
-  margin-bottom: 35px;
-}
-.contact-us-section .contact-us-intro .contact-us-title{
-  margin-bottom: 34px;
-  font-size: 48px;
-}
-.contact-us-section .contact-us-intro p{
-  margin-bottom: 25px;
-  font-size: 16px;
-}
-.contact-us-section .contact-us-intro .contact-us-list{
-  margin-bottom: 25px;
-}
-.contact-us-section .contact-us-intro .contact-us-list li{
-  margin-bottom: 10px;
-  margin-left: 13px;
-}
-.contact-us-intro .contact-us-list li::marker{
-  font-size: 13px;
-}
-.contact-us-boxes{
-  flex-direction: column;
-  align-items: center;
-}
-.contact-us-boxes .contact-box{
-  width: 516px;
-}
-.contact-us-boxes .contact-first-box{
-  margin-right: 0;
-  margin-bottom: 40px;
-  padding: 33px 280px 13px 40px;
-}
-.contact-us-boxes .contact-first-box .contact-label{
-  margin-bottom: 31px;
-}
-.contact-us-boxes .contact-first-box .contact-label a{
-  text-decoration: underline;
-}
-.contact-first-box .contact-label .contact-info-ttl{
-  margin-bottom: 8px;
-  font-size: 16px;
-  font-weight: 700;
-}
-.contact-us-boxes .contact-second-box{
-  padding: 33px 0 68px 45px;
-  background-color: var(--white);
-}
-.contact-second-box .contact-second-label{
-  margin-bottom: 29px;
-  font-weight: 700;
-}
-.contact-second-box .contact-second-address{
-  line-height: 1.5;
-  margin-bottom: 28px;
-  font-size: 16px;
-}
-.contact-second-box .contact-ph-no .phone{
-  cursor: pointer;
-  pointer-events: auto;
-}
+  .feature-sec .feature-txt-lft {
+    margin-left: 0;
+  }
+
+  .feature-sec .feature-right-img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .second-feature .feature-txt-lft {
+    margin-left: 1.094vw;
+  }
+
+  /*---------------------Contact Us Page------------------------*/
+  .contact-us-section {
+    padding: 6.563vw 0 7.813vw;
+  }
+
+  .contact-us-section .contact-us-intro {
+    margin-bottom: 5.469vw;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-title {
+    margin-bottom: 5.313vw;
+    font-size: 7.5vw;
+  }
+
+  .contact-us-section .contact-us-intro p {
+    margin-bottom: 3.906vw;
+    font-size: 2.5vw;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-list {
+    margin-bottom: 3.906vw;
+  }
+
+  .contact-us-section .contact-us-intro .contact-us-list li {
+    margin-bottom: 1.563vw;
+    margin-left: 2.031vw;
+  }
+
+  .contact-us-intro .contact-us-list li::marker {
+    font-size: 2.031vw;
+  }
+
+  .contact-us-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-boxes .contact-box {
+    width: 80.625vw;
+  }
+
+  .contact-us-boxes .contact-first-box {
+    margin-right: 0;
+    margin-bottom: 6.25vw;
+    padding: 5.156vw 43.75vw 2.031vw 6.25vw;
+  }
+
+  .contact-us-boxes .contact-first-box .contact-label {
+    margin-bottom: 4.844vw;
+  }
+
+  .contact-us-boxes .contact-first-box .contact-label a {
+    text-decoration: underline;
+  }
+
+  .contact-first-box .contact-label .contact-info-ttl {
+    margin-bottom: 1.25vw;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+
+  .contact-us-boxes .contact-second-box {
+    padding: 5.156vw 0 10.625vw 7.031vw;
+    background-color: var(--white);
+  }
+
+  .contact-second-box .contact-second-label {
+    margin-bottom: 4.531vw;
+    font-weight: 700;
+  }
+
+  .contact-second-box .contact-second-address {
+    line-height: 1.5;
+    margin-bottom: 4.375vw;
+    font-size: 2.5vw;
+  }
+
+  .contact-second-box .contact-ph-no .phone {
+    cursor: pointer;
+    pointer-events: auto;
+  }
 
 }
