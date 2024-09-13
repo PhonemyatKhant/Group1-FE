@@ -2293,6 +2293,70 @@ Ipad*/
 .second-feature .feature-txt-lft{
   margin-left: 7px;
 }
-
+/*---------------------Contact Us Page------------------------*/
+.contact-us-section{
+  padding:42px 0 50px;
+}
+.contact-us-section .contact-us-intro{
+  margin-bottom: 35px;
+}
+.contact-us-section .contact-us-intro .contact-us-title{
+  font-size: 48px;
+  margin-bottom: 34px;
+}
+.contact-us-section .contact-us-intro p{
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list{
+  margin-bottom: 25px;
+}
+.contact-us-section .contact-us-intro .contact-us-list li{
+  margin-left: 13px;
+  margin-bottom: 10px;
+}
+.contact-us-intro .contact-us-list li::marker{
+  font-size: 13px;
+}
+.contact-us-boxes{
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-boxes .contact-box{
+  width: 516px;
+}
+.contact-us-boxes .contact-first-box{
+  padding: 33px 280px 13px 40px;
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+.contact-us-boxes .contact-first-box .contact-label{
+  margin-bottom: 31px;
+}
+.contact-us-boxes .contact-first-box .contact-label a{
+  text-decoration: underline;
+}
+.contact-first-box .contact-label .contact-info-ttl{
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.contact-us-boxes .contact-second-box{
+  padding: 33px 0 68px 45px;
+  background-color: var(--white);
+}
+.contact-second-box .contact-second-label{
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+.contact-second-box .contact-second-address{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+.contact-second-box .contact-ph-no .phone{
+  cursor: pointer;
+  pointer-events: auto;
+}
 
 }
