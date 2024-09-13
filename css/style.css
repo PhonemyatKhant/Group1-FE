@@ -223,7 +223,6 @@ SP => Screen Size - 640px*/
 
 /*---------------------Left and Right------------------------*/
 .left-right .home-txt-side {
-  width: 50%;
   background-color: #D1B0A8;
 }
 
@@ -729,7 +728,6 @@ SP => Screen Size - 640px*/
 .mission-sec {
   padding: 155px 0 196px;
   background: url("../img/about-us/our_mission.png") no-repeat center/cover;
-  max-width: 100%;
   max-width: 1400px;
 }
 
@@ -864,7 +862,6 @@ SP => Screen Size - 640px*/
 }
 
 .feature-sec .feature-img-side img {
-  width: 560px;
   width: 100%;
   height: 377px;
   margin-right: 9px;
