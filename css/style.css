@@ -1210,26 +1210,26 @@ SP => Screen Size - 640px*/
   margin-bottom: 33px;
 }
 .contact-us-section .contact-us-intro .contact-us-title{
+  margin-bottom: 30px;
+  color:var(--txt-black);
   font-size: 48px;
   font-weight: 700;
-  color:var(--txt-black);
-  margin-bottom: 30px;
 }
 .contact-us-section .contact-us-intro p{
-  color: var(--txt-black);
-  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 25px;
+  color: var(--txt-black);
+  font-size: 16px;
 }
 .contact-us-section .contact-us-intro .contact-us-list{
   margin-bottom: 25px;
 }
 .contact-us-section .contact-us-intro .contact-us-list li{
-  list-style-type: disc;
-  margin-left: 13px;
   margin-bottom: 10px;
+  margin-left: 13px;
   color: var(--bg-dark-green);
   font-weight: 700;
+  list-style-type: disc;
 }
 .contact-us-intro .contact-us-list li::marker{
   font-size: 13px;
@@ -1246,9 +1246,9 @@ SP => Screen Size - 640px*/
   width: 516px;
 }
 .contact-us-boxes .contact-first-box{
+  margin-right: 40px;
   padding: 37px 280px 13px 39px;
   background-color: var(--white);
-  margin-right: 40px;
 }
 .contact-us-boxes .contact-first-box .contact-label{
   margin-bottom: 31px;
@@ -1257,8 +1257,8 @@ SP => Screen Size - 640px*/
   text-decoration: underline;
 }
 .contact-first-box .contact-label .contact-info-ttl{
-  font-size: 16px;
   margin-bottom: 8px;
+  font-size: 16px;
   font-weight: 700;
 }
 .contact-us-boxes .contact-second-box{
@@ -1266,13 +1266,13 @@ SP => Screen Size - 640px*/
   background-color: var(--white);
 }
 .contact-second-box .contact-second-label{
-  font-weight: 700;
   margin-bottom: 29px;
+  font-weight: 700;
 }
 .contact-second-box .contact-second-address{
-  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 28px;
+  font-size: 16px;
 }
 .contact-second-box .contact-ph-no .phone{
   cursor: none;
@@ -1284,12 +1284,178 @@ Ipad*/
 
   /*---------------------home-mv------------------------*/
   .home-mv {
-
     padding: 5.208vw 0 33.594vw 0;
   }
 
   .mv-txt-blk {
     margin-left: 0;
+  }
+  /*---------------------most-popular------------------------*/
+
+  .mp {
+    padding: 5.208vw 0 7.422vw 0;
+  }
+
+  .mp-ttl-blk {
+    padding: 0vw 8.464vw 3.906vw 8.464vw;
+  }
+
+  .mp-list {
+    column-gap: 7.813vw;
+    row-gap: 5.078vw;
+  }
+
+  .mp-list .product-card {
+    margin: 0;
+  }
+
+  /*---------------------cp-banner------------------------*/
+  .cp-banner {
+    display: block;
+  }
+
+  .cp-banner .txt-left {
+    width: 100%;
+    padding: 12.63vw 0 13.021vw 0;
+  }
+
+  .cp-banner .txt-left .txt-side-blk {
+    margin-left: 10.417vw;
+  }
+  .cp-banner .txt-left .txt-side-blk {
+    max-width: 429px;
+  }
+
+  .cp-banner .txt-left .txt-side-blk button {
+    padding: 1.042vw 5.208vw;
+  }
+
+  .cp-banner .img-side {
+    width: 100%;
+    height: 64.453vw;
+  }
+  .cp-banner .img-side img{
+   height: 100%;
+  }
+
+  /*---------------------top-recommended------------------------*/
+  .tr {
+    padding: 11.3vw 0 7.682vw 0;
+  }
+
+  .tr-ttl-blk {
+
+    padding: 0vw 8.464vw 5.469vw 8.464vw;
+  }
+
+  .tr-list {
+    justify-content: center;
+    column-gap: 7.813vw;
+    row-gap: 4.883vw;
+  }
+
+  .tr-list .product-card {
+    margin: 0;
+  }
+
+  /*---------------------nip-banner------------------------*/
+  .about-right-txt {
+    display: block;
+  }
+
+  .about-right-txt .txt-side {
+    width: 100%;
+    padding: 12.63vw 0 13.021vw 0;
+  }
+
+  .about-right-txt .txt-side .txt-side-blk {
+    margin-left: 10.417vw;
+  }
+  .about-right-txt .txt-side .txt-side-blk h3{
+    max-width: 397px;
+  }
+  .nip-txt{
+    max-width: 582px;
+  }
+  .about-right-txt .txt-side .txt-side-blk button {
+    padding: 1.042vw 5.208vw;
+  }
+
+  .about-right-txt .img-side {
+    width: 100%;
+    height: 64.453vw;
+  }
+  .about-right-txt .img-side img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*---------------------best recommended section------------------------*/
+  .br {
+    padding: 5.599vw 0 7.682vw 0;
+  }
+
+  .br-ttl-blk {
+
+    padding: 0vw 8.464vw 4.167vw 8.464vw;
+  }
+
+  .br-list {
+    justify-content: center;
+    column-gap: 7.813vw;
+    row-gap: 4.883vw;
+  }
+
+  .br-list .product-card {
+    margin: 0;
+  }
+
+  /*---------------------ingredients-section------------------------*/
+  .ingredients {
+    padding: 7.161vw 0 7.161vw 0;
+  }
+
+  .ingredients .ingre-ttl-blk {
+    padding-right: 2.083vw;
+  }
+
+  .ingredients .ingre-ttl-blk p {
+    padding-bottom: 6.51vw;
+  }
+
+  .ingredients .ingre-list {
+    align-items: center;
+    column-gap: 5.599vw;
+    row-gap: 5.859vw;
+  }
+
+  .ingredients .ingre-card {
+    margin: 0;
+    /*margin-bottom: 5.729vw;*/
+  }
+
+  .ingredients .ingre-card .ingre-img {
+    width: 26.042vw;
+    height: 26.042vw;
+    margin-bottom: 2.995vw;
+  }
+
+  /*---------------------services-section------------------------*/
+  .services-list li:first-of-type {
+    margin-right: 11.719vw;
+    max-width: 17.708vw;
+  }
+
+  .services-list li:nth-of-type(2) {
+    /*margin-left: 14.974vw;*/
+    margin-right: 11.719vw;
+    max-width: 19.271vw;
+
+  }
+
+  .services-list li:last-of-type {
+    margin-right: 9.115vw;
+    max-width: 8.854vw;
   }
   /*---------------------products main visual------------------------*/
   .p-mv {
@@ -1963,8 +2129,8 @@ Ipad*/
     text-align: center;
   }
 
-  /*---------------------home-mv------------------------*/
-  .home-mv {
+   /*---------------------home-mv------------------------*/
+   .home-mv {
 
     padding: 77.188vw 0 9.375vw 0;
   }
@@ -1972,6 +2138,183 @@ Ipad*/
   .mv-txt-blk {
     margin-left: 9.688vw;
     max-width: 70.625vw;
+  }
+  .home-mv p {
+    padding-bottom: 3.125vw;
+  }
+
+  /*---------------------most-popular------------------------*/
+
+  .mp {
+    padding: 6.25vw 0 9.3vw 0;
+  }
+
+  .mp-ttl-blk {
+    padding: 0vw 3.438vw 4.688vw 3.438vw;
+  }
+
+  .mp-list {
+    column-gap: 9.375vw;
+    row-gap: 6.094vw;
+  }
+
+  .mp-list .product-card {
+    margin: 0;
+  }
+
+  /*---------------------cp-banner------------------------*/
+  .cp-banner {
+    display: block;
+  }
+
+  .cp-banner .txt-left {
+    width: 100%;
+    padding: 15.156vw 0 15.625vw 0;
+  }
+
+  .cp-banner .txt-left .txt-side-blk {
+    margin-left: 12.5vw;
+  }
+  .cp-banner .txt-left .txt-side-blk {
+    max-width: 429px;
+  }
+
+  .cp-banner .txt-left .txt-side-blk button {
+    padding: 1.25vw 6.25vw;
+  }
+
+  .cp-banner .img-side {
+    width: 100%;
+    height: 77.344vw;
+  }
+  .cp-banner .img-side img{
+    height: 100%;
+   }
+
+  /*---------------------top-recommended------------------------*/
+  .tr {
+    padding: 6.8vw 0 9.219vw 0;
+  }
+
+  .tr-ttl-blk {
+
+    padding: 0vw 3.438vw 5vw 3.438vw;
+  }
+
+  .tr-list {
+    justify-content: center;
+    column-gap: 9.375vw;
+    row-gap: 5.859vw;
+  }
+
+  .tr-list .product-card {
+    margin: 0;
+  }
+
+  /*---------------------nip-banner------------------------*/
+  .about-right-txt {
+    display: block;
+  }
+
+  .about-right-txt .txt-side {
+    width: 100%;
+    padding: 15.156vw 0 15.625vw 0;
+  }
+
+  .about-right-txt .txt-side .txt-side-blk {
+    margin-left: 12.5vw;
+  }
+  .about-right-txt .txt-side .txt-side-blk h3{
+    max-width: 397px;
+  }
+  .about-right-txt .txt-side .txt-side-blk p{
+    max-width: 427px;
+  }
+  .about-right-txt .txt-side .txt-side-blk button {
+    padding: 1.25vw 6.25vw;
+  }
+
+  .about-right-txt .img-side {
+    width: 100%;
+    height: 77.344vw;
+  }
+  .about-right-txt .img-side img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*---------------------best recommended section------------------------*/
+  .br {
+    padding: 6.719vw 0 9.219vw 0;
+  }
+
+  .br-ttl-blk {
+
+    padding: 0vw 3.438vw 5vw 3.438vw;
+  }
+
+  .br-list {
+    justify-content: center;
+    column-gap: 9.375vw;
+    row-gap: 5.859vw;
+  }
+
+  .br-list .product-card {
+    margin: 0;
+  }
+
+  /*---------------------ingredients-section------------------------*/
+  .ingredients {
+    padding: 8.9vw 0 0.156vw 0;
+  }
+
+  .ingredients .ingre-ttl-blk p {
+    padding-bottom: 6.719vw;
+  }
+
+  .ingredients .ingre-list {
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  .ingredients .ingre-card {
+    margin: 0;
+    margin-bottom: 6.875vw;
+  }
+
+  .ingredients .ingre-card:first-child {
+    margin-bottom: 9.375vw;
+  }
+
+  .ingredients .ingre-card:nth-child(5) {
+    margin-bottom: 7.188vw;
+  }
+
+  /*---------------------services-section------------------------*/
+  .services-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 11.406vw;
+  }
+
+  .services-list li:first-of-type {
+    margin-right: 0.313vw;
+    max-width: 21.25vw;
+  }
+
+  .services-list li:nth-of-type(2) {
+    /*margin-left: 17.969vw;*/
+    margin-right: 0.313vw;
+    max-width: 23.125vw;
+
+  }
+
+  .services-list li:last-of-type {
+    margin-right: 0.313vw;
+    max-width: 10.625vw;
   }
   /*---------------------products main visual------------------------*/
   .p-mv {
@@ -2301,19 +2644,19 @@ Ipad*/
   margin-bottom: 35px;
 }
 .contact-us-section .contact-us-intro .contact-us-title{
-  font-size: 48px;
   margin-bottom: 34px;
+  font-size: 48px;
 }
 .contact-us-section .contact-us-intro p{
-  font-size: 16px;
   margin-bottom: 25px;
+  font-size: 16px;
 }
 .contact-us-section .contact-us-intro .contact-us-list{
   margin-bottom: 25px;
 }
 .contact-us-section .contact-us-intro .contact-us-list li{
-  margin-left: 13px;
   margin-bottom: 10px;
+  margin-left: 13px;
 }
 .contact-us-intro .contact-us-list li::marker{
   font-size: 13px;
@@ -2326,9 +2669,9 @@ Ipad*/
   width: 516px;
 }
 .contact-us-boxes .contact-first-box{
-  padding: 33px 280px 13px 40px;
   margin-right: 0;
   margin-bottom: 40px;
+  padding: 33px 280px 13px 40px;
 }
 .contact-us-boxes .contact-first-box .contact-label{
   margin-bottom: 31px;
@@ -2337,8 +2680,8 @@ Ipad*/
   text-decoration: underline;
 }
 .contact-first-box .contact-label .contact-info-ttl{
-  font-size: 16px;
   margin-bottom: 8px;
+  font-size: 16px;
   font-weight: 700;
 }
 .contact-us-boxes .contact-second-box{
@@ -2346,13 +2689,13 @@ Ipad*/
   background-color: var(--white);
 }
 .contact-second-box .contact-second-label{
-  font-weight: 700;
   margin-bottom: 29px;
+  font-weight: 700;
 }
 .contact-second-box .contact-second-address{
-  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 28px;
+  font-size: 16px;
 }
 .contact-second-box .contact-ph-no .phone{
   cursor: pointer;
